@@ -1,0 +1,129 @@
+body{
+    background-color:white;
+}
+
+/*Inicio de Barra de navegacion*/
+.menu{
+    background-color: #cfbcbc;
+    display: flex;
+    height: 75px;
+    justify-content: end;
+    text-align: center;
+    box-shadow: 0px 10px 5px -5px #c9184a;
+    align-items:center
+
+
+}
+
+.menu-item{
+    margin: 20px;
+    padding: 10px 10px 10px 60px; /*Separacion entre cada palabra, recordar de contacto esta separado y tiene su propio paddin*/
+    list-style: none;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 20px;
+}
+.menu-item:hover{
+    color: white;
+}
+
+.menu-contacto{  /*Separe el boton de contacto para poder trabajarlo por separado*/
+    margin: 70px;
+    padding: 14px 18px 14px 18px; /* se ajusta con el paddin d las otras palabras*/
+    list-style: none;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    }
+    .menu-contacto:hover{
+        background-color: #cfbcbc;
+        color: white;
+    }
+    
+    /*Fin de barra de navegacion*/
+    
+    /*Section presentacion*/
+
+    .presentacion{
+        
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        height: 600px;
+    }
+    .presentacion-texto{
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+    }
+    
+    
+    
+    .presentacion-imagen{
+        border: 1px solid black;
+        }
+       
+/*Fin Section presentacion*/
+
+/*Mis conocimientos*/
+.mis-conocimientos{
+    
+    height: 700px;
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    background-color: rgb(175, 175, 175);
+
+}
+.conocimientos{
+    border: 1px solid black;
+    background-color: white;
+    width: 1300px;
+    height: 300px;
+    align-content: center;
+    margin-top: 20px;
+    
+}
+.html{
+    border: 1px solid black;
+    background-color: white;
+    width: 200px;
+    margin: 10px 20px 10px 250px;
+    
+    
+}
+.css{
+    border: 1px solid black;
+    background-color: white;
+    width: 200px;
+    margin: 10px 20px 10px 20px;
+}   
+.sass{
+    border: 1px solid black;
+    background-color: white;
+    width: 200px;
+    margin: 10px 250px 10px 20px;
+} 
+.java{
+    border: 1px solid black;
+    background-color: white;
+    width: 200px;
+    margin: 10px 20px 10px 20px;
+}
+.react{
+    border: 1px solid black;
+    background-color: white;
+    width: 200px;
+    margin: 10px 20px 10px 20px;
+}
+.git{
+    border: 1px solid black;
+    background-color: white;
+    width: 200px;
+    margin: 10px 20px 10px 20px;
+}
+
+
