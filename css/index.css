@@ -126,4 +126,28 @@ body{
     margin: 10px 20px 10px 20px;
 }
 
+/*Cita*/
 
+.cita{
+    border: 1px solid black;
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center; /*me alineo el contenido de adentro*/
+    margin-left: 160px;
+    
+    
+}
+.cita-imagen{
+    
+    border: 1px solid black;
+    width: 200px;
+    margin: 10px;
+
+}
+.cita-texto{
+    border: 1px solid black;
+    width: 900px;
+    margin: 10px;
+}
