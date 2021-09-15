@@ -151,3 +151,38 @@ body{
     width: 900px;
     margin: 10px;
 }
+
+/*Proyecto*/
+.proyecto{
+    border: 1px solid black;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 160px;
+}
+.proyecto-texto{
+    border: 1px solid black;
+    width: 600px;
+    height: 200px;
+
+}
+.proyecto1{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+.proyecto2{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+.proyecto3{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px; 
+}
+.proyecto4{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
