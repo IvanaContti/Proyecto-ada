@@ -1,39 +1,35 @@
 body{
-    background-color:white;
+    background-color: #ebebea;
 }
 
 /*Inicio de Barra de navegacion*/
 .menu{
-    background-color: #cfbcbc;
+    background-color: #ebebea;
     display: flex;
     height: 75px;
     justify-content: end;
     text-align: center;
-    box-shadow: 0px 10px 5px -5px #c9184a;
-    align-items:center
-
-
-}
-
-.menu-item{
-    margin: 20px;
-    padding: 10px 10px 10px 60px; /*Separacion entre cada palabra, recordar de contacto esta separado y tiene su propio paddin*/
+    box-shadow: 0px 10px 5px -5px #a5a5a1;
+    align-items:center;
+    margin-top: -2px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 18px;
     list-style: none;
-    font-family: 'Kaisei HarunoUmi', serif;
-    font-size: 20px;
+    }
+.menu-item{
+    
+    padding: 20px 20px 20px 20px; /*Separacion entre cada palabra, recordar de contacto esta separado y tiene su propio paddin*/
+  
 }
 .menu-item:hover{
     color: white;
 }
 
 .menu-contacto{  /*Separe el boton de contacto para poder trabajarlo por separado*/
-    margin: 70px;
-    padding: 14px 18px 14px 18px; /* se ajusta con el paddin d las otras palabras*/
-    list-style: none;
-    font-family: 'Kaisei HarunoUmi', serif;
-    font-size: 20px;
+    margin: 0px 100px 0px 10px;
+    padding: 9px 20px 7px 20px; /* se ajusta con el paddin d las otras palabras*/
     border-radius: 20px;
-    background-color: aqua;
+    background-color: #e68992;
     }
     .menu-contacto:hover{
         background-color: #cfbcbc;
@@ -186,3 +182,36 @@ body{
     height: 100px;
 }
 
+/*Contactame*/
+
+.formulario{
+    width: 1000px;
+    display: flex;
+    margin-left: 160px;
+    
+}
+
+.contactame{
+    border: 1px solid black;
+    width: 500px;
+}
+
+.escribime{
+    border: 1px solid black;
+    width: 500px;
+
+}
+
+.footer{
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    
+}
+.footer-hola{
+    border: 1px solid black;  
+
+}
+.footer-contacto{
+    border: 1px solid black;
+}
