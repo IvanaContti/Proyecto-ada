@@ -18,7 +18,7 @@ body{
     }
 .menu-item{
     
-    padding: 20px 20px 20px 20px; /*Separacion entre cada palabra, recordar de contacto esta separado y tiene su propio paddin*/
+    padding: 20px 20px 20px 20px; /*Separacion entre cada palabra, recordar que contacto esta separado y tiene su propio paddin*/
   
 }
 .menu-item:hover{
