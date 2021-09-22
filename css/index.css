@@ -1,25 +1,29 @@
 body{
-    background-color: #ebebea;
+    background-color: white;
 }
 
 /*Inicio de Barra de navegacion*/
 .menu{
-    background-color: #ebebea;
+    background-color: black;
     display: flex;
-    height: 75px;
     justify-content: end;
     text-align: center;
     box-shadow: 0px 10px 5px -5px #a5a5a1;
     align-items:center;
-    margin-top: -2px;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 18px;
     list-style: none;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    top: -20px;
+    
     }
 .menu-item{
     
     padding: 20px 20px 20px 20px; /*Separacion entre cada palabra, recordar que contacto esta separado y tiene su propio paddin*/
-  
+    color: #f0c2c6;
 }
 .menu-item:hover{
     color: white;
@@ -42,22 +46,49 @@ body{
 
     .presentacion{
         
-       /* border: 1px solid red;*/
+        /*border: 1px solid red;*/
         display: flex;
         justify-content: center;
-        margin-top: 200px;
-        height: 600px;
+        width: 100%;
+        height: 700px;
+        
     }
     .presentacion-texto{
-        width: 300px;
-        height: 300px;
+        width: 500px;
         /*border: 1px solid black;*/
+        
     }
-    
-    
+    .presentacion-texto h1{
+        font-size: 50px;
+        font-family: 'Mukta', sans-serif;
+        margin-top: 300px;
+    }
+    .presentacion-texto h2{
+        font-size: 60px;
+        color: #ff6584;
+        font-family: 'Anton', sans-serif;
+        text-shadow: 2px 2px 1px black;
+        font-weight: 900;
+        margin-top: -50px;
+    }
+    .presentacion-texto button{
+        border-radius: 20px;
+        background-color: #e68992;
+        padding: 10px 40px 8px 40px;
+        font-weight: 800;
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 18px;
+        
+    }
+    .presentacion-texto button:hover{
+            background-color: #cfbcbc;
+            color: white;
+    }
     
     .presentacion-imagen{
         /*border: 1px solid black;*/
+        margin-top: 100px;
         }
        
 /*Fin Section presentacion*/
@@ -71,14 +102,14 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-between;
-    background-color: rgb(175, 175, 175);
+    background-color: #f8e5e9;
 
 }
 .conocimientos{
     /*border: 1px solid black;*/
     background-color: white;
     width: 1300px;
-    height: 300px;
+    height: 200px;
     align-content: center;
     margin-top: 20px;
     
@@ -184,24 +215,62 @@ body{
 
 /*Contactame*/
 
-.formulario{
+.cuadrado-contactame{
     width: 1000px;
     display: flex;
     margin-left: 160px;
     
 }
-
+/*contactame texto- titulo*/
 .contactame{
     border: 1px solid black;
     width: 500px;
+    
+    
+}
+/*contactame texto- parrafo*/
+.contactame-1{
+    font-size: 3em;
+    text-align: center;
+    line-height: 0.1em;
+    
+}
+.contactame-cuadrado-links{
+    
+    width: 190px;
+    margin-left: 60px;
+    line-height: 50px;
+    font-size: 18px;
+    
+    
+}
+.contactame-cuadrado-imagenes-links{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 190px;
+    margin-top: -210px;
+    margin-left: 50px;
+    
+
 }
 
-.escribime{
+
+
+
+
+.formulario-escribime{
     border: 1px solid black;
     width: 500px;
 
 }
+.escribime-titulo{
+    font-size: 3em;
+    text-align: center;
+}
 
+/*FOOTHER */
 .footer{
     margin: 0%;
     padding: 0%;
