@@ -93,15 +93,16 @@ body{
        
 /*Fin Section presentacion*/
 
-/*Mis conocimientos*/
+/*--------------Mis conocimientos--------------------*/
 .mis-conocimientos{
     
     height: 500px;
     display: flex;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     flex-wrap: wrap;
     justify-content: center;
     background-color: #f8e5e9;
+    width: 100%;
 
 }
 .conocimientos-texto{
@@ -111,6 +112,7 @@ body{
     height: 200px;
     align-content: center;
     margin-top: 20px;
+    margin-bottom: -180px;
     
 }
 .conocimientos-texto h1{
@@ -122,124 +124,72 @@ body{
     margin-left: 350px;
     margin-top: -40px;
 }
+
+/*------propiedades de los contenedores de cada imagen-------*/
 .conocimientos-imagenes{
-    border: 1px solid black;
-    padding: 40px;
-    margin-top: -30px;
+    
     height: 200px;
+    display: flex;
+    align-items: center;
     
 }
+
+.conocimientos-imagenes p{
+    text-align: center;
+    
+}
+
+/*----propiedades de cada imagen-----*/
 .conocimientos-imagen{
     width: 100px;
     height: 100px;
-    margin-left: 60px;    
+    border-radius: 50px;
+    margin-left: 70px;
+    
 }
+
 .conocimientos-imagen:hover{
     border: 3px solid #ff6584;
-    border-radius: 100px;
+    color: #ff6584;
 }
-.conocimientos-imagen-nombre{
-    border: 1px solid black;
-    margin-top: -100px;
-    height: 50px;
-    
-}
-.conocimientos-imagen-nombre li{
-    
-    border: 1px solid black;
-    width: 100%;
-    display: inline;
-    padding-inline-end: 110px;
-    
-}
+
+
+
+/*------------- FIN de Mis conocimientos--------------------*/
 
 
 
 
 
-
-/*.html{
-    border: 1px solid black;
-    background-color: white;
-    width: 200px;
-    margin: 10px 20px 10px 20px;
-    
-    }
-    .html:hover{
-        border: 1px solid #ec2049;
-        
-        
-    }
-.css{
-   border: 1px solid black;
-     /*width: 200px;
-    background-color: white;
-    margin: 10px 20px 10px 20px;
-}
-.css:hover{
-    border: 1px solid #ec2049;
-}   
-.sass{
-    border: 1px solid black;
-    width: 200px;
-    background-color: white;
-    margin: 10px 20px 10px 20px;
-} 
-.sass:hover{
-    border: 1px solid #ec2049;
-}
-.java{
-    border: 1px solid black; width: 200px;
-    /*background-color: white;
-    margin: 10px 20px 10px 20px;
-}
-.java:hover{
-    border: 1px solid #ec2049;
-}
-.react{
-    border: 1px solid black;width: 200px;
-    /*background-color: white;
-    margin: 10px 20px 10px 20px;
-}
-.react:hover{
-    border: 1px solid #ec2049;
-}
-.git{
-   border: 1px solid black;width: 200px;
-    /* background-color: white;
-    margin: 10px 20px 10px 20px;
-}
-.git:hover{
-    border: 1px solid #ec2049;
-}*/
-
-/*Cita*/
+/*-------------------Cita---------------------------------------------------*/
 
 .cita{
     border: 1px solid black;
     display: flex;
-    height: 500px;
-    width: 1000px;
+    height: 400px;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center; /*me alineo el contenido de adentro*/
-    margin-left: 160px;
+    
     
     
 }
 .cita-imagen{
     
     border: 1px solid black;
-    width: 200px;
-    margin: 10px;
+    width: 170px;
+    height: 150px;
+    
 
 }
 .cita-texto{
     border: 1px solid black;
-    width: 900px;
+    width: 100%;
     margin: 10px;
+    text-align: center;
 }
 
-/*Proyecto*/
+/*---------------Proyecto------------*/
 .proyecto{
     border: 1px solid black;
     width: 1000px;
