@@ -239,7 +239,7 @@ body{
     color: #ff6584;
 }
 
-/*Contactame*/
+/*-------------------Contactame---------------------------*/
 
 .cuadrado-contactame{
     width: 100%;
@@ -249,7 +249,7 @@ body{
 }
 /*contactame texto- titulo*/
 .contactame{
-    border: 1px solid black;
+    
     width: 500px;
     
     
@@ -266,26 +266,32 @@ body{
     margin-left: 50px;
 }
 .contactame-cuadrado-links{
-    
+    border: 1px solid black;
     width: 190px;
     margin-left: 60px;
-    line-height: 50px;
-    font-size: 18px;
-    
+    line-height: 55px;
+    font-size: 16px;
+
     
 }
+
 .contactame-cuadrado-imagenes-links{
-    
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     width: 50px;
     height: 190px;
-    margin-top: -210px;
+    margin-top: -223px;
     margin-left: 50px;
-    margin-bottom: 300px;
-    
+    color: #ff6584;
+    font-size: 25px;
+    margin-bottom: 400px;  
 }
 
+.contactame-cuadrado-imagenes-links:hover{
+    padding: 100px;
+    background-color: #e68992;
+}
 
 
 
