@@ -20,12 +20,17 @@ body{
     top: -20px;
     
     }
+    
+.menu-item a{
+        text-decoration: none;
+        color: #f0c2c6;
+    }
+
 .menu-item{
     
     padding: 20px 20px 20px 20px; /*Separacion entre cada palabra, recordar que contacto esta separado y tiene su propio paddin*/
-    color: #f0c2c6;
 }
-.menu-item:hover{
+.menu-item a:hover{
     color: white;
 }
 
@@ -37,6 +42,10 @@ body{
     }
     .menu-contacto:hover{
         background-color: #cfbcbc;
+        color: white;
+    }
+    .menu-contacto a{
+        text-decoration: none;
         color: white;
     }
     
@@ -104,6 +113,7 @@ body{
     justify-content: center;
     background-color: #faeff1;
     width: 100%;
+    
 
 }
 .conocimientos-texto{
@@ -284,6 +294,7 @@ body{
 .icono{
     padding: 10px;
     color: #ff6584;
+    font-size: 25px;
 
 }
 
@@ -297,7 +308,6 @@ body{
     border-radius: 50px;
     
     
-
 }
 
 
@@ -344,15 +354,40 @@ button:hover{
 
 /*-------------------FOOTHER------------------ */
 .footer{
-    margin: 0%;
-    padding: 0%;
     border: 1px solid black;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    
     
 }
-.footer-hola{
-    border: 1px solid black;  
-
-}
-.footer-contacto{
+.footer-caja{
+    display: flex;
     border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #ff6584;
+}
+.footer-hola{
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+
+.footer-contacto-caja{
+   margin-left: 500px;
+   margin-bottom: 100px;
+   margin-top: -70px;
+}
+.footer-contacto li{
+    float: left;
+    padding: 10px;
+}
+
+.footer-contacto .items-contacto:hover{
+    border: 1px solid #ff6584;
+    border-radius: 50px;
+    padding: 5px;
 }
