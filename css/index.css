@@ -65,6 +65,7 @@ body{
     .presentacion-texto{
         width: 500px;
         /*border: 1px solid black;*/
+        margin-top: -100px;
         
     }
     .presentacion-texto h1{
