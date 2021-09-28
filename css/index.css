@@ -97,7 +97,7 @@ body{
 /*--------------Mis conocimientos--------------------*/
 .mis-conocimientos{
     
-    height: 500px;
+    height: 600px;
     display: flex;
     /*border: 1px solid black;*/
     flex-wrap: wrap;
@@ -129,10 +129,12 @@ body{
 /*------propiedades de los contenedores de cada imagen-------*/
 .conocimientos-imagenes{
     
-    height: 200px;
+    height: 400px;
     display: flex;
     align-items: center;
-    
+    width: 600px;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
 
 .conocimientos-imagenes p{
