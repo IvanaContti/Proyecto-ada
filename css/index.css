@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    width: 100%;
 }
 
 /*Inicio de Barra de navegacion*/
@@ -33,6 +34,11 @@ body{
 .menu-item a:hover{
     color: white;
 }
+.menu-item a:active{
+    border-radius: 20px;
+    border: 1px solid #ff6584;
+    padding: 9px 20px 7px 20px;
+}
 
 .menu-contacto{  /*Separe el boton de contacto para poder trabajarlo por separado*/
     margin: 0px 100px 0px 10px;
@@ -51,7 +57,7 @@ body{
     
     /*Fin de barra de navegacion*/
     
-    /*Section presentacion*/
+    /*------------------Section presentacion--------------------------------*/
 
     .presentacion{
         
@@ -96,6 +102,10 @@ body{
             color: white;
             
     }
+    .presentacion-texto button a{
+        text-decoration: none;
+        color: black;
+    } 
     
     .presentacion-imagen{
         /*border: 1px solid black;*/
@@ -107,7 +117,7 @@ body{
 /*--------------Mis conocimientos--------------------*/
 .mis-conocimientos{
     
-    height: 600px;
+    height: 100%;
     display: flex;
     /*border: 1px solid black;*/
     flex-wrap: wrap;
@@ -129,12 +139,13 @@ body{
 }
 .conocimientos-texto h1{
     font-size: 45px;
+    margin-top: 100px;
     
 }
 .conocimientos-texto p{
     width: 600px;
     margin-left: 350px;
-    margin-top: -40px;
+    margin-top: -20px;
 }
 
 /*------propiedades de los contenedores de cada imagen-------*/
@@ -145,7 +156,7 @@ body{
     align-items: center;
     width: 600px;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .conocimientos-imagenes p{
@@ -210,7 +221,7 @@ body{
 .proyecto{
     /*border: 1px solid black;*/
     width: 100%;
-    height: 600px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     
@@ -225,6 +236,7 @@ body{
     font-size: 45px;
     text-align: center;
     width: 100%;
+    margin-top: 100px;
 }
 .proyecto-texto p{
     text-align: center;
@@ -235,6 +247,7 @@ body{
     flex-wrap: nowrap;
     width: 100%;
     justify-content: center;
+    margin-top: 100px;
 }
 .proyecto-imagenes p{
     text-align: center;
@@ -259,18 +272,16 @@ body{
     border-radius: 20px;
     width: 1000px;
     display: flex;
-    margin-left: 180px;
-    margin-top: 400px;
+    margin-top: 600px;
     margin-bottom: 200px;
-    padding: 50px 20px 50px 20px;
+    margin-left: 150px;
+    padding: 30px;
+    
     
 }
 /*contactame texto- titulo*/
 .contactame{
-    
     width: 500px;
-    
-    
 }
 /*contactame texto- parrafo*/
 .contactame h1{
@@ -284,12 +295,17 @@ body{
 }
 .contactame-cuadrado-links{
    /* border: 1px solid black; */
-    width: 100%;
+    width: 50%;
     margin-left: 20px;
     line-height: 55px;
     font-size: 16px;
 
     
+}
+.contactame-cuadrado-links li:active{
+    padding: 1px -20px 1px -20px;
+    border: 1px solid #ff6584;
+    border-radius: 20px;
 }
 
 .icono{
@@ -299,7 +315,21 @@ body{
 
 }
 
-.items-contacto:hover{
+.items-contacto a{
+    text-decoration: none;
+    color: black;
+}
+/*.items-contacto a:active{
+    padding: 10px 100px 10px 100px;
+    box-shadow: 10px 10px 10px #ff6584;
+    border-radius: 20px;
+}*/
+/*
+.items-contacto a:hover{
+    color: #ff6584;
+}
+*/
+.items-contacto:hover a{
     color: #ff6584;
 }
 
@@ -317,7 +347,7 @@ body{
 
 
 .formulario-escribime{
-   /* border: 1px solid black;*/
+  /* border: 1px solid black;*/
     width: 500px;
 
 }
@@ -370,7 +400,16 @@ button:hover{
     padding: 80px;
     font-family: 'Archivo Narrow', sans-serif;
     color: #ff6584;
+    
 }
+.footer-caja a{
+    text-decoration: none;
+    color: #ff6584;
+}
+.footer-caja a:hover{
+    color: #fae1e3;
+}
+
 .footer-hola{
     border: 1px solid black;
     margin-left: 20px;
