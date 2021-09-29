@@ -9,16 +9,16 @@ body{
     display: flex;
     justify-content: end;
     text-align: center;
-    box-shadow: 0px 10px 5px -5px #a5a5a1;
+    box-shadow: 0em 0.62em 0.31em -0.31em #a5a5a1;
     align-items:center;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 18px;
     list-style: none;
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: 5em;
     overflow: hidden;
-    top: -20px;
+    top: -1.25em;
     
     }
     
@@ -29,21 +29,21 @@ body{
 
 .menu-item{
     
-    padding: 20px 20px 20px 20px; /*Separacion entre cada palabra, recordar que contacto esta separado y tiene su propio paddin*/
+    padding: 1.25em; /*Separacion entre cada palabra, recordar que contacto esta separado y tiene su propio paddin*/
 }
 .menu-item a:hover{
     color: white;
 }
 .menu-item a:active{
-    border-radius: 20px;
-    border: 1px solid #ff6584;
-    padding: 9px 20px 7px 20px;
+    border-radius: 1.25em;
+    border: 0.06em solid #ff6584;
+    padding: 0.56em 1.25em 0.43em 1.25em;
 }
 
 .menu-contacto{  /*Separe el boton de contacto para poder trabajarlo por separado*/
-    margin: 0px 100px 0px 10px;
-    padding: 9px 20px 7px 20px; /* se ajusta con el paddin d las otras palabras*/
-    border-radius: 20px;
+    margin: 0em 6.25em 0em 0.62em;
+    padding: 0.56em 1.25em 0.43em 1.25em; /* se ajusta con el paddin d las otras palabras*/
+    border-radius: 1.25em;
     background-color: #e68992;
     }
     .menu-contacto:hover{
@@ -65,35 +65,36 @@ body{
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 700px;
+        margin-bottom: -9.37em;
         
     }
     .presentacion-texto{
-        width: 500px;
+        width: 31.25em;
         /*border: 1px solid black;*/
-        margin-top: -100px;
+        margin-top: 12.5em;
+        
         
     }
     .presentacion-texto h1{
-        font-size: 50px;
+        font-size: 3.12em;
         font-family: 'Mukta', sans-serif;
-        margin-top: 300px;
+        margin-bottom: -1em;
     }
     .presentacion-texto h2{
-        font-size: 60px;
+        font-size: 3.25em;
         color: #ff6584;
         font-family: 'Anton', sans-serif;
-        text-shadow: 2px 2px 1px black;
+        text-shadow: 0.12em 0.12em 0.06em black;
         font-weight: 900;
-        margin-top: -50px;
+        
     }
     .presentacion-texto button{
-        border-radius: 20px;
+        border-radius: 1.25em;
         background-color: #e68992;
-        padding: 10px 40px 8px 40px;
+        padding: 0.62em 2.5em 0.5em 2.5em;
         font-weight: 800;
         margin-top: 50px;
-        margin-left: 20px;
+        margin-left: 3.12em;
         font-size: 18px;
         
     }
@@ -109,7 +110,7 @@ body{
     
     .presentacion-imagen{
         /*border: 1px solid black;*/
-        margin-top: 100px;
+        margin-top: 8em;
         }
        
 /*Fin Section presentacion*/
@@ -117,64 +118,66 @@ body{
 /*--------------Mis conocimientos--------------------*/
 .mis-conocimientos{
     
-    height: 100%;
+    
     display: flex;
     /*border: 1px solid black;*/
     flex-wrap: wrap;
     justify-content: center;
     background-color: #faeff1;
     width: 100%;
+    margin-bottom: 12.5em;
     
 
 }
 .conocimientos-texto{
-    /*border: 1px solid black;
-    background-color: white;*/
-    width: 1300px;
-    height: 200px;
-    align-content: center;
-    margin-top: 20px;
-    margin-bottom: -180px;
+    border: 0.06em solid black;
+    /*background-color: white;*/
+    
+    
     
 }
 .conocimientos-texto h1{
     font-size: 45px;
-    margin-top: 100px;
+    margin-top: 3em;
     
 }
 .conocimientos-texto p{
-    width: 600px;
-    margin-left: 350px;
-    margin-top: -20px;
+    width: 50%;
+    margin-left: 21.87em;
+    
+    
 }
 
 /*------propiedades de los contenedores de cada imagen-------*/
 .conocimientos-imagenes{
     
-    height: 400px;
+    height: 25em;
     display: flex;
     align-items: center;
-    width: 600px;
+    width: 37.5em;
     flex-wrap: wrap;
-    margin-top: 200px;
+    margin-top: 3.12em;
+    margin-bottom: 6.25em;
+    margin-left: -3.25em;
 }
 
 .conocimientos-imagenes p{
     text-align: center;
     
+    
 }
 
 /*----propiedades de cada imagen-----*/
 .conocimientos-imagen{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    margin-left: 70px;
+    width: 6.25em;
+    height: 6.25em;
+    border-radius: 3.12em;
+    margin-left: 5.62em;
     
 }
 
 .conocimientos-imagen:hover{
-    border: 3px solid #ff6584;
+    border: 0.18em solid #ff6584;
     color: #ff6584;
 }
 
@@ -191,15 +194,16 @@ body{
 .cita{
     /*border: 1px solid black;*/
     display: flex;
-    height: 400px;
+    padding: 12.5em 0em 12.5em 0em;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center; /*me alineo el contenido de adentro*/
     background-color: rgb(219, 217, 217);
+    margin-top: -12.5em;
 }
 .cita-imagen{
     /*border: 1px solid black;*/
-    
+    margin-top: -6.25em;
     
     
 }
@@ -208,8 +212,8 @@ body{
     width: 100%;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 45px;
-    margin-top: -100px;
+    font-size: 2.8em;
+    
 }
 
 
@@ -229,14 +233,14 @@ body{
 .proyecto-texto{
     /*border: 1px solid black;*/
     width: 100%;
-    height: 200px;
+    height: 12.5em;
 
 }
 .proyecto-texto h1{
     font-size: 45px;
     text-align: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 2em;
 }
 .proyecto-texto p{
     text-align: center;
@@ -247,55 +251,55 @@ body{
     flex-wrap: nowrap;
     width: 100%;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 6.25em;
 }
 .proyecto-imagenes p{
     text-align: center;
 }
 
 .proyecto1{
-    border: 1px solid black;
-    width: 300px;
-    height: 300px;
-    margin-left: 70px;
+    border: 0.06em solid black;
+    width: 18.75em;
+    height: 18.75em;
+    margin-left: 4.37em;
 }
 .proyecto1:hover{
-    border: 1px solid #ff6584;
-    padding: 0px;
+    border: 0.06em solid #ff6584;
+    padding: 0em;
     color: #ff6584;
 }
 
 /*-------------------Contactame---------------------------*/
 
 .cuadrado-contactame{
-    border: 1px solid #f0c2c6;
+    border: 0.06em solid #f0c2c6;
     border-radius: 20px;
-    width: 1000px;
+    width: 62em;
     display: flex;
-    margin-top: 600px;
-    margin-bottom: 200px;
-    margin-left: 150px;
-    padding: 30px;
+    margin-top: 37.5em;
+    margin-bottom: 12.5em;
+    margin-left: 9.37em;
+    padding: 1.87em;
     
     
 }
 /*contactame texto- titulo*/
 .contactame{
-    width: 500px;
+
 }
 /*contactame texto- parrafo*/
 .contactame h1{
     font-size: 3em;
-    margin-left: 50px;
+    margin-left: 1em;
     
 }
 .contactame p{
     line-height: 0.2em;
-    margin-left: 50px;
+    margin-left: 3.12em;
 }
 .contactame-cuadrado-links{
    /* border: 1px solid black; */
-    width: 50%;
+    width: 100%;
     margin-left: 20px;
     line-height: 55px;
     font-size: 16px;
@@ -349,6 +353,7 @@ body{
 .formulario-escribime{
   /* border: 1px solid black;*/
     width: 500px;
+    margin-left: 170px;
 
 }
 .escribime-titulo{
