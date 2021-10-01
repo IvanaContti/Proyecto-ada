@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+/*-------------------FOOTHER------------------ */
+.footer{
+    border: 0.06em solid black;
+    background-color: black;
+    
+    height: 18.75em;
+    
+    
+}
+.footer-caja{
+    display: flex;
+    border: 0.06em solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #ff6584;
+    
+}
+.footer-caja a{
+    text-decoration: none;
+    color: #ff6584;
+}
+.footer-caja a:hover{
+    color: #fae1e3;
+}
+
+

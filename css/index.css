@@ -1,58 +1,86 @@
 body{
     background-color: white;
     width: 100%;
+    margin: 0%;
+    padding: 0%;
 }
 
 /*Inicio de Barra de navegacion*/
-.menu{
+header{
     background-color: black;
-    display: flex;
-    justify-content: end;
-    text-align: center;
-    box-shadow: 0em 0.62em 0.31em -0.31em #a5a5a1;
-    align-items:center;
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 18px;
-    list-style: none;
+    height: 90px;
     position: fixed;
     width: 100%;
-    height: 5em;
-    overflow: hidden;
-    top: -1.25em;
-    
-    }
-    
-.menu-item a{
-        text-decoration: none;
-        color: #f0c2c6;
-    }
+    top: 0;
+    left: 0%;
+    box-shadow: 0em 0.62em 0.31em -0.31em #a5a5a1;
+}
+.nav{
+    display: flex; 
+    justify-content: space-between;
+    justify-content: end;
+    margin: 0 auto;
+   
 
-.menu-item{
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+   
     
-    padding: 1.25em; /*Separacion entre cada palabra, recordar que contacto esta separado y tiene su propio paddin*/
+    
 }
-.menu-item a:hover{
+    
+.nav-menu-link a{
+    padding: 8px 40px; /*Separacion entre cada palabra, recordar que contacto esta separado y tiene su propio paddin*/
+    text-decoration: none;
+    color: #f0c2c6; 
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 18px; 
+    line-height: 60px;
+    
+    
+    
+}
+
+.nav-menu-link a:hover{
     color: white;
+    transition: 0.5s;
 }
-.menu-item a:active{
+.nav-menu-link:active{
     border-radius: 1.25em;
     border: 0.06em solid #ff6584;
-    padding: 0.56em 1.25em 0.43em 1.25em;
+    
 }
 
-.menu-contacto{  /*Separe el boton de contacto para poder trabajarlo por separado*/
-    margin: 0em 6.25em 0em 0.62em;
-    padding: 0.56em 1.25em 0.43em 1.25em; /* se ajusta con el paddin d las otras palabras*/
+.nav-menu-contacto{  /*Separe el boton de contacto para poder trabajarlo por separado*/
+    margin: 0.5em 6.25em 0.5em 0.62em;
+    padding: 8px 30px 8px 30px; /* se ajusta con el paddin d las otras palabras*/
     border-radius: 1.25em;
     background-color: #e68992;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 18px;
     }
-    .menu-contacto:hover{
+    
+    .nav-menu-contacto:hover{
         background-color: #cfbcbc;
         color: white;
+        
     }
-    .menu-contacto a{
+    .nav-menu-contacto a{
         text-decoration: none;
         color: white;
+        
+    }
+    .nav-toggle{
+        color:#ff6584;
+        font-size: 30px;
+        text-align: center;
+        background: none;
+        border: none;
+        padding: 0px 20px;
+        display: none;
+        
     }
     
     /*Fin de barra de navegacion*/
@@ -66,12 +94,15 @@ body{
         justify-content: center;
         width: 100%;
         margin-bottom: -9.37em;
+        padding-top: 43.75em;
         
     }
     .presentacion-texto{
-        width: 31.25em;
+        width: 50em;
         /*border: 1px solid black;*/
-        margin-top: 12.5em;
+        margin-top: -30em;
+        margin-left: 6.25em;
+        padding-bottom: 30em;
         
         
     }
@@ -110,7 +141,7 @@ body{
     
     .presentacion-imagen{
         /*border: 1px solid black;*/
-        margin-top: 8em;
+        margin-top: -35em;
         }
        
 /*Fin Section presentacion*/
@@ -130,7 +161,7 @@ body{
 
 }
 .conocimientos-texto{
-    border: 0.06em solid black;
+   /* border: 0.06em solid black;*/
     /*background-color: white;*/
     
     
@@ -204,6 +235,7 @@ body{
 .cita-imagen{
     /*border: 1px solid black;*/
     margin-top: -6.25em;
+    margin-left: 7em;
     
     
 }
@@ -300,20 +332,20 @@ body{
 .contactame-cuadrado-links{
    /* border: 1px solid black; */
     width: 100%;
-    margin-left: 20px;
-    line-height: 55px;
+    margin-left: 1.25em;
+    line-height: 3.43em;
     font-size: 16px;
 
     
 }
 .contactame-cuadrado-links li:active{
-    padding: 1px -20px 1px -20px;
-    border: 1px solid #ff6584;
-    border-radius: 20px;
+    padding: 0.06em -1.25em 0.06em -1.25em;
+    border: 0.06em solid #ff6584;
+    border-radius: 1.25em;
 }
 
 .icono{
-    padding: 10px;
+    padding: 0.5em;
     color: #ff6584;
     font-size: 25px;
 
@@ -340,7 +372,7 @@ body{
 .items-contacto:hover .icono{
     background-color: black;
     color: #f0c2c6;
-    border-radius: 50px;
+    border-radius: 3em;
     
     
 }
@@ -352,8 +384,8 @@ body{
 
 .formulario-escribime{
   /* border: 1px solid black;*/
-    width: 500px;
-    margin-left: 170px;
+    width: 31.25em;
+    margin-left: 10.62em;
 
 }
 .escribime-titulo{
@@ -365,21 +397,23 @@ body{
     flex-wrap: wrap;
 }
 #apellido{
-    margin-left: 20px;
+    margin-left: 1.25em;
 }
 input{
-    border-radius: 50px;
-    padding: 10px;
-    border: 1px solid #fae1e3;
+    border-radius: 3.12em;
+    padding: 0.62em;
+    border: 0.06em solid #fae1e3;
     background-color: #fae1e3;
 }
 textarea{
-    border-radius: 20px;
+    border-radius: 1.25em;
     background-color: #fae1e3;
+    max-width: 35em;
+    max-height: 12.5em;
 }
 button{
     
-    padding: 12px 40px 12px 40px; /* se ajusta con el paddin d las otras palabras*/
+    padding: 0.6em 2.5em 0.6em 2.5em; /* se ajusta con el paddin d las otras palabras*/
     border-radius: 25px;
     background-color: #e68992;
     font-size: 20px;
@@ -390,19 +424,18 @@ button:hover{
 
 /*-------------------FOOTHER------------------ */
 .footer{
-    border: 1px solid black;
-    background-color: black;
-    width: 100%;
-    height: 300px;
+    border: 0.06em solid black;
+    background-color: black; /*NO TIENE WIDTH, SE LO BORRE XQ ME DABA UN MARGEN*/
+    height: 18.75em;
     
     
 }
 .footer-caja{
     display: flex;
-    border: 1px solid black;
+    border: 0.06em solid black;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 80px;
+    padding: 5em;
     font-family: 'Archivo Narrow', sans-serif;
     color: #ff6584;
     
@@ -416,23 +449,78 @@ button:hover{
 }
 
 .footer-hola{
-    border: 1px solid black;
-    margin-left: 20px;
+    border: 0.06em solid black;
+    margin-left: 1.25em;
 }
 
 
 .footer-contacto-caja{
-   margin-left: 500px;
-   margin-bottom: 100px;
-   margin-top: -70px;
+   margin-left: 31.25em;
+   margin-bottom: 6.25em;
+   margin-top: -4.37em;
 }
 .footer-contacto li{
     float: left;
-    padding: 10px;
+    padding: 0.62em;
 }
 
 .footer-contacto .items-contacto:hover{
-    border: 1px solid #ff6584;
-    border-radius: 50px;
-    padding: 5px;
+    border: 0.06em solid #ff6584;
+    border-radius: 3.12em;
+    padding: 0.31em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1000px){
+    .header{
+        position: fixed;
+    
+    }
+    .nav-menu{
+        background-color: black;
+        flex-direction: column;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 18px;
+        list-style: none;
+        width: 100%;
+        height: 20em;
+        margin-bottom: 10em;
+        padding-bottom: 2.5em;
+        left: 0px;
+        padding: 0%;
+        position: fixed;
+    }
+
+    .nav-menu-contacto{ 
+        border-radius: 1.25em;
+        background-color: #e68992;
+        padding-right: 500px;
+        }
+       
+    .nav-toggle{
+        color:#ff6584;
+        font-size: 30px;
+        text-align: center;
+        background: none;
+        border: none;
+        padding: 0px 20px;
+        left: 100%;
+            
+        }
+
+
+
+
+
 }

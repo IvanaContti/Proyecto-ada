@@ -8,6 +8,7 @@
         <meta name="description" content="pagina portafolio proyecto para Ada"> 
         <script src="https://kit.fontawesome.com/374c00aec0.js" crossorigin="anonymous"></script> <!---link de los iconos-->
         <link href="css/index.css" rel="stylesheet">
+        <link href="index2.css" rel="stylesheet">
         <link rel="icon" href="./logos/programacion.svg">
         <!--LINKS EXTERNOS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,12 +22,17 @@
     <body>
         <!--------------------------menu---------------->
         <header>
-            <nav> 
-            <ul class="menu" style="@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Permanent+Marker&display=swap');">
-                <li class="menu-item"><a href="#hola">HOLA</a></li>
-                <li class="menu-item"><a href="#conocimientos">CONOCIMIENTOS</a></li>
-                <li class="menu-item"><a href="#proyectos">PROYECTOS</a></li>
-                <li class="menu-contacto"><a href="#contacto">CONTACTO</a> </li>
+            <nav class="nav">
+                <!--MENU HAMBURGUESA--> 
+                <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+                </button> 
+                <!--FIN MENU HAMBURGUESA--> 
+            <ul class="nav-menu" style="@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Permanent+Marker&display=swap');">
+                <li class="nav-menu-link"><a href="#hola">HOLA</a></li>
+                <li class="nav-menu-link"><a href="#conocimientos">CONOCIMIENTOS</a></li>
+                <li class="nav-menu-link"><a href="#proyectos">PROYECTOS</a></li>
+                <li class="nav-menu-contacto"><a href="#contacto">CONTACTO</a> </li>
             </ul>
             </nav>
         </header>
@@ -41,7 +47,7 @@
                 </div>
                 <div class="presentacion-imagen" >
                     <figure >
-                        <img src="./imagenes/proyecto.png" width="500" height="500" style="margin-bottom: 400px;" alt="">
+                        <img src="./imagenes/proyecto.png" width="90%" height="90%"  alt="">
                     </figure>
                 
                 </div>
@@ -88,7 +94,7 @@
             <section class="cita"> 
                 <div class="cita-imagen">
                     <figure>
-                        <img src="./logos/svg/comillas.svg" style="width: 100px; height: 100px;" alt="">
+                        <img src="./logos/svg/comillas.svg" style="width: 50%; height: 50%;" alt="">
                     </figure>
                 </div>
                 <div class="cita-texto">
@@ -104,15 +110,15 @@
                 </div>
                 <div class="proyecto-imagenes">
                     <div class="proyecto1">
-                        <img src="./imagenes/undraw_Landing_page_re_6xev.svg" style="width: 300px; height: 300px;" alt="">
+                        <img src="./imagenes/undraw_Landing_page_re_6xev.svg" style="width: 100%; height: 100%;" alt="">
                         <p>Responsive Page</p>
                     </div>
                     <div class="proyecto1">
-                        <img src="./imagenes/undraw_more_music_w70e.svg" style="width: 300px; height: 300px;" alt="">
+                        <img src="./imagenes/undraw_more_music_w70e.svg" style="width: 100%; height: 100%;" alt="">
                         <p>Pagina de Pianos</p>
                     </div>
                     <div class="proyecto1">
-                        <img src="./imagenes/undraw_outdoors_amdn.svg" style="width: 300px; height: 300px;" alt="">
+                        <img src="./imagenes/undraw_outdoors_amdn.svg" style="width: 100%; height: 100%;" alt="">
                         <p>Galeria de Flores</p>
                     </div>
                     <!--<div class="proyecto4"></div>
@@ -153,11 +159,11 @@
                         </div>
                         <div>
                             <p>Email*</p> 
-                            <input type="email" name="email" size="60px" placeholder="p. ej: ada.lovelace@gmail.com" required>
+                            <input type="email" name="email" size="60px" placeholder="p. ej: ada.lovelace@gmail.com">
                         </div>
                         <div>
                             <p>Mensaje*</p>
-                            <textarea name="" id="" cols="61" rows="10">  Escriba un mensaje aqui</textarea>
+                            <textarea name="" id="" cols="61" rows="10" placeholder=" Escriba un mensaje aqui"></textarea>
                             
                         </div>
                         

@@ -1,0 +1,63 @@
+@media(max-width:1000px){
+    .nav{
+        background-color: black;
+        flex-direction: column;
+        justify-content: end;
+        text-align: center;
+        box-shadow: 0em 0.62em 0.31em -0.31em #a5a5a1;
+        align-items:center;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 18px;
+        list-style: none;
+        position: fixed;
+        width: 100%;
+        height: 5em;
+        overflow: hidden;
+        top: -1.25em;
+        
+        }
+        
+    .nav-link a{
+            text-decoration: none;
+            color: #f0c2c6;
+        }
+    
+    .nav-link{
+        
+        padding: 1.25em; /*Separacion entre cada palabra, recordar que contacto esta separado y tiene su propio paddin*/
+    }
+    .nav-link a:hover{
+        color: white;
+    }
+    .nav-link a:active{
+        border-radius: 1.25em;
+        border: 0.06em solid #ff6584;
+        padding: 0.56em 1.25em 0.43em 1.25em;
+    }
+    
+    .nav-contacto{  /*Separe el boton de contacto para poder trabajarlo por separado*/
+        margin: 0em 6.25em 0em 0.62em;
+        padding: 0.56em 1.25em 0.43em 1.25em; /* se ajusta con el paddin d las otras palabras*/
+        border-radius: 1.25em;
+        background-color: #e68992;
+        }
+        .nav-contacto:hover{
+            background-color: #cfbcbc;
+            color: white;
+            
+        }
+        .nav-contacto a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        .nav-toggle{
+            color:#ff6584;
+            font-size: 30px;
+            text-align: center;
+            background: none;
+            border: none;
+            padding: 0px 20px;
+            
+        }
+}
