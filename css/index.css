@@ -318,14 +318,16 @@ header{
     
 }
 
-
+.contactame-caja{
+    border: 1px solid black;
+}
 /*contactame texto- parrafo*/
-.contactame h1{
+.contactame-caja h1{
     font-size: 3em;
     margin-left: 1em;
     
 }
-.contactame p{
+.contactame-caja p{
     line-height: 0.2em;
     margin-left: 3.12em;
 }
@@ -485,8 +487,9 @@ button:hover{
 @media(max-width:900px){
     /*----------MENU Y HEADER------------*/
     body{
-        max-width: 100%;
+        width: 800px;
         padding: 8px 20px;
+        margin: 0%;
     }
     
     header{
@@ -494,7 +497,7 @@ button:hover{
         height: 60px;
         box-shadow: none;
     }
-    .nav-menu{
+    /*.nav-menu{
         border: 2px solid #ff6584;
         flex-direction: column;
         align-items: center;
@@ -515,18 +518,19 @@ button:hover{
         padding: 10px;
         
     }
+    
     .nav-toggle{
         display: block;
         margin-top: 30px;
         margin-right: 88%;
-        /*detalles esteticos*/
+        detalles esteticos
         padding: 10px 15px;
         border: 2px solid #ff6584;
         color: black;
         transition: 1s;
         font-size: 25px; 
     }
-
+    */
     .nav-menu_visible{
         left: 0%;
     }
@@ -547,25 +551,24 @@ button:hover{
     /*---------------FIN DEL MENU Y HEADER-----------*/
     /*-------------------PRESENTACION------------------------*/
     .presentacion{
-        
-        /*  border: 1px solid red;*/
         display: block;
         margin-bottom: -9.37em;
         padding-top: 41em;
-        width: 100%;
+        margin-left: -60px;
+        
           
-      }
+    }
       .presentacion-texto{
           width: 100%;
          /* border: 1px solid black;*/
           margin-top: -30em;
-      }
+        }
       .presentacion-texto h1{
           font-size: 30px;
           font-family: 'Mukta', sans-serif;
           margin-bottom: -1em;
           text-align: center;
-      }
+        }
       .presentacion-texto h2{
           font-size: 3.25em;
           color: #ff6584;
@@ -573,11 +576,11 @@ button:hover{
           text-shadow: 0.12em 0.12em 0.06em black;
           text-align: center;
           margin-top: 40px;
-      }
+        }
       .presentacion-texto p{
           text-align: center;
           margin-top: 20px;
-      }
+        }
       .presentacion-texto button{
           border-radius: 2em;
           background-color: #e68992;
@@ -586,7 +589,7 @@ button:hover{
           margin-left: 30em;
           font-size: 12px;
           
-      }
+        }
      
       
       
@@ -594,30 +597,32 @@ button:hover{
           /*border: 1px solid black;*/
           margin-top: -24em;
           margin-left: 250px;
-          width: 70%;
+          
           height: 70%;
   
-    }
+        }
       /*---------------conocimientos-----------*/
 
       .mis-conocimientos{
         display: flex;
-        /*border: 1px solid black;*/
         flex-wrap: wrap;
         background-color: #faeff1;
-        padding: 100px;
         margin-top: 200px;
-        
-    }
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-left: -20px;
+        }
    
     .conocimientos-texto h1{
         font-size: 45px;
         margin-top: 3em;
         
+        
     }
     .conocimientos-texto p{
         font-size: 20px;
         margin-left: 220px;
+       
          
     }
     
@@ -625,20 +630,21 @@ button:hover{
     .cita{
         /*border: 1px solid black;*/
         display: flex;
-        padding-left: 200px;
         margin-top: -12.5em;
+        margin-left: -20px;
+        padding-left: 100px;
     }
     .cita-imagen{
         /*border: 1px solid black;*/
         margin-top: -6.25em;
-        margin-left: -3em;
+        margin-left: 50px;
         
         
     }
     .cita-texto{
         /*border: 1px solid black;*/
     
-        margin-left: -230px;
+        margin-left: -110px;
     }
     
     
@@ -649,25 +655,41 @@ button:hover{
     /*---------------Proyecto------------*/
     .proyecto{
         /*border: 1px solid black;*/
-        margin-left: 100px;
+        margin-left: -10px;
     }
    
     .proyecto-texto h1{
         font-size: 50px;
+        margin-left: 40px;
         
     }
     .proyecto-texto p{
         font-size: 20px;
+        margin-left: 90px;
     }
     
     
     /*-------------------Contactame---------------------------*/
     
     .cuadrado-contactame{
-        margin-left: 7em;
+        margin: 0%;
+        display: block;
+        border: 1px solid black;
+        padding-right: -1200px;
+        margin-top: 300px;
+        width: 800px;
+        padding-bottom: 200px;
         
     }
-   
+
+    .contactame-caja{
+        border: 1px solid black;
+        margin: 0%;
+    
+        
+    }
+    
+    
     /*contactame texto- parrafo*/
     .contactame h1{
         font-size: 3em;
@@ -679,14 +701,18 @@ button:hover{
     }
     .contactame-cuadrado-links{
         font-size: 20px;
+        
     }
     
     
     
     .formulario-escribime{
-      /* border: 1px solid black;*/
-        width: 31.25em;
-        margin-left: 5em;
+        border: 1px solid black;
+        margin-left: 1px;
+        padding-left: 50px;
+        padding-right: 250px;
+        
+        
     
     }
     .escribime-titulo{
@@ -696,7 +722,7 @@ button:hover{
   
     }
     input{
-        max-width: 180px;
+        max-width: 200px;
     }
     textarea{
         max-width: 31em;
@@ -708,6 +734,7 @@ button:hover{
         border: 0.06em solid black;
         background-color: black; /*NO TIENE WIDTH, SE LO BORRE XQ ME DABA UN MARGEN*/
         height: 18.75em;
+        
         
         
     }
@@ -764,7 +791,7 @@ button:hover{
 
 
 
-}    
+}   /*------------------FIN 900-----------------*/ 
     
 
 
