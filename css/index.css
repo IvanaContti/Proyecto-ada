@@ -107,7 +107,7 @@ header{
         
     }
     .presentacion-texto h1{
-        font-size: 3.12em;
+        font-size: 30px;
         font-family: 'Mukta', sans-serif;
         margin-bottom: -1em;
     }
@@ -146,7 +146,7 @@ header{
        
 /*Fin Section presentacion*/
 
-/*--------------Mis conocimientos--------------------*/
+/*-------------------------Mis conocimientos--------------------*/
 .mis-conocimientos{
     
     
@@ -170,11 +170,13 @@ header{
 .conocimientos-texto h1{
     font-size: 45px;
     margin-top: 3em;
+    text-align: center;
     
 }
 .conocimientos-texto p{
     width: 50%;
     margin-left: 21.87em;
+    text-align: center;
     
     
 }
@@ -315,10 +317,8 @@ header{
     
     
 }
-/*contactame texto- titulo*/
-.contactame{
 
-}
+
 /*contactame texto- parrafo*/
 .contactame h1{
     font-size: 3em;
@@ -477,50 +477,404 @@ button:hover{
 
 
 
+/*----------------------------MEDIA--------------------*/
 
 
 
 
-
-@media(max-width:1000px){
-    .header{
-        position: fixed;
+@media(max-width:900px){
+    /*----------MENU Y HEADER------------*/
+    body{
+        max-width: 100%;
+        padding: 8px 20px;
+    }
     
+    header{
+        background-color: white;
+        height: 60px;
+        box-shadow: none;
     }
     .nav-menu{
-        background-color: black;
+        border: 2px solid #ff6584;
         flex-direction: column;
-        font-family: 'Archivo Narrow', sans-serif;
-        font-size: 18px;
-        list-style: none;
-        width: 100%;
-        height: 20em;
-        margin-bottom: 10em;
-        padding-bottom: 2.5em;
-        left: 0px;
-        padding: 0%;
+        align-items: center;
         position: fixed;
+        top: 78px;
+        width: 150px;
+        height: 200px;
+        padding: 0%;
+        border-radius: 30px;
+        padding-top: 20px;
+        right: 100%;
+        transition: right 0.3s;
     }
-
     .nav-menu-contacto{ 
         border-radius: 1.25em;
         background-color: #e68992;
-        padding-right: 500px;
-        }
-       
+        margin-left: 110px;
+        padding: 10px;
+        
+    }
     .nav-toggle{
-        color:#ff6584;
-        font-size: 30px;
-        text-align: center;
-        background: none;
+        display: block;
+        margin-top: 30px;
+        margin-right: 88%;
+        /*detalles esteticos*/
+        padding: 10px 15px;
+        border: 2px solid #ff6584;
+        color: black;
+        transition: 1s;
+        font-size: 25px; 
+    }
+
+    .nav-menu_visible{
+        left: 0%;
+    }
+    .nav-menu-link a{
+        color: black; 
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 18px; 
+        line-height: 40px;
+    }
+
+    .nav-menu-link a:hover{
+        color: #ff6584;
+        transition: 0.5s;
+    }
+    .nav-menu-link:active{
         border: none;
-        padding: 0px 20px;
-        left: 100%;
+    }
+    /*---------------FIN DEL MENU Y HEADER-----------*/
+    /*-------------------PRESENTACION------------------------*/
+    .presentacion{
+        
+        /*  border: 1px solid red;*/
+        display: block;
+        margin-bottom: -9.37em;
+        padding-top: 41em;
+        width: 100%;
+          
+      }
+      .presentacion-texto{
+          width: 100%;
+         /* border: 1px solid black;*/
+          margin-top: -30em;
+      }
+      .presentacion-texto h1{
+          font-size: 30px;
+          font-family: 'Mukta', sans-serif;
+          margin-bottom: -1em;
+          text-align: center;
+      }
+      .presentacion-texto h2{
+          font-size: 3.25em;
+          color: #ff6584;
+          font-family: 'Anton', sans-serif;
+          text-shadow: 0.12em 0.12em 0.06em black;
+          text-align: center;
+          margin-top: 40px;
+      }
+      .presentacion-texto p{
+          text-align: center;
+          margin-top: 20px;
+      }
+      .presentacion-texto button{
+          border-radius: 2em;
+          background-color: #e68992;
+          padding: 0.9em 2.5em 0.9em 2.5em;
+          margin-top: 70px;
+          margin-left: 30em;
+          font-size: 12px;
+          
+      }
+     
+      
+      
+      .presentacion-imagen{
+          /*border: 1px solid black;*/
+          margin-top: -24em;
+          margin-left: 250px;
+          width: 70%;
+          height: 70%;
+  
+    }
+      /*---------------conocimientos-----------*/
+
+      .mis-conocimientos{
+        display: flex;
+        /*border: 1px solid black;*/
+        flex-wrap: wrap;
+        background-color: #faeff1;
+        padding: 100px;
+        margin-top: 200px;
+        
+    }
+   
+    .conocimientos-texto h1{
+        font-size: 45px;
+        margin-top: 3em;
+        
+    }
+    .conocimientos-texto p{
+        font-size: 20px;
+        margin-left: 220px;
+         
+    }
+    
+    /*------------cita----------------*/
+    .cita{
+        /*border: 1px solid black;*/
+        display: flex;
+        padding-left: 200px;
+        margin-top: -12.5em;
+    }
+    .cita-imagen{
+        /*border: 1px solid black;*/
+        margin-top: -6.25em;
+        margin-left: -3em;
+        
+        
+    }
+    .cita-texto{
+        /*border: 1px solid black;*/
+    
+        margin-left: -230px;
+    }
+    
+    
+    
+    
+    
+    
+    /*---------------Proyecto------------*/
+    .proyecto{
+        /*border: 1px solid black;*/
+        margin-left: 100px;
+    }
+   
+    .proyecto-texto h1{
+        font-size: 50px;
+        
+    }
+    .proyecto-texto p{
+        font-size: 20px;
+    }
+    
+    
+    /*-------------------Contactame---------------------------*/
+    
+    .cuadrado-contactame{
+        margin-left: 7em;
+        
+    }
+   
+    /*contactame texto- parrafo*/
+    .contactame h1{
+        font-size: 3em;
+        margin-left: 1em;
+        
+    }
+    .contactame p{
+        font-size: 20px;
+    }
+    .contactame-cuadrado-links{
+        font-size: 20px;
+    }
+    
+    
+    
+    .formulario-escribime{
+      /* border: 1px solid black;*/
+        width: 31.25em;
+        margin-left: 5em;
+    
+    }
+    .escribime-titulo{
+        font-size: 3em;
+        
+    }
+  
+    }
+    input{
+        max-width: 180px;
+    }
+    textarea{
+        max-width: 31em;
+        max-height: 12.5em;
+    }
+   
+    /*-------------------FOOTHER------------------ */
+    .footer{
+        border: 0.06em solid black;
+        background-color: black; /*NO TIENE WIDTH, SE LO BORRE XQ ME DABA UN MARGEN*/
+        height: 18.75em;
+        
+        
+    }
+    .footer-caja{
+        display: flex;
+        border: 0.06em solid black;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5em;
+        font-family: 'Archivo Narrow', sans-serif;
+        color: #ff6584;
+        margin-left: 150px;
+        
+    }
+    .footer-caja a{
+        text-decoration: none;
+        color: #ff6584;
+    }
+    .footer-caja a:hover{
+        color: #fae1e3;
+    }
+    
+    .footer-hola{
+        border: 0.06em solid black;
+        margin-left: 1.25em;
+    }
+    
+    
+    .footer-contacto-caja{
+       margin-left: 31.25em;
+       margin-bottom: 6.25em;
+       margin-top: -4.37em;
+       margin-left: 340px;
+    }
+    .footer-contacto li{
+        float: left;
+        padding: 0.62em;
+        
+    }
+    
+    .footer-contacto .items-contacto:hover{
+        border: 0.06em solid #ff6584;
+        border-radius: 3.12em;
+        padding: 0.31em;
+    }
+    .hecho p{
+        margin-left: 150px;
+    }
+
+
+
+
+
+
+
+
+}    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*-------------------PRESENTACION------------------------*/
+
+@media(max-width:690px){
+    body{
+        margin: 0%;
+        padding: 80px -90px 0;
+        width: 100%;
+    }
+    .presentacion{
+        
+      /*  border: 1px solid red;*/
+        display: block;
+        justify-content: center;
+        margin-bottom: -9.37em;
+        padding-top: 41em;
+        min-height: calc(100vh - 90px);
+        margin-top: 90px;
+        
+    }
+    .presentacion-texto{
+        width: 50%;
+       /* border: 1px solid black;*/
+        margin-top: -40em;
+    }
+    .presentacion-texto h1{
+        font-size: 2.5em;
+        font-family: 'Mukta', sans-serif;
+        margin-bottom: -1em;
+        text-align: center;
+    }
+    .presentacion-texto h2{
+        font-size: 3.25em;
+        color: #ff6584;
+        font-family: 'Anton', sans-serif;
+        text-shadow: 0.12em 0.12em 0.06em black;
+        text-align: center;
+    }
+    .presentacion-texto p{
+        text-align: center;
+    }
+    .presentacion-texto button{
+        border-radius: 1.25em;
+        background-color: #e68992;
+        padding: 0.62em 2.5em 0.5em 2.5em;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-left: 3.12em;
+        font-size: 18px;
+        
+    }
+    .presentacion-texto button:hover{
+            background-color: #cfbcbc;
+            color: white;
             
-        }
+    }
+    .presentacion-texto button a{
+        text-decoration: none;
+        color: black;
+    } 
+    
+    .presentacion-imagen{
+        /*border: 1px solid black;*/
+        margin-top: -24em;
+        margin-left: -100px;
 
-
-
-
+    }
 
 }
+
+
+
+
+
+
+   
