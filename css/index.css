@@ -160,13 +160,7 @@ header{
     
 
 }
-.conocimientos-texto{
-   /* border: 0.06em solid black;*/
-    /*background-color: white;*/
-    
-    
-    
-}
+
 .conocimientos-texto h1{
     font-size: 45px;
     margin-top: 3em;
@@ -318,9 +312,7 @@ header{
     
 }
 
-.contactame-caja{
-    border: 1px solid black;
-}
+
 /*contactame texto- parrafo*/
 .contactame-caja h1{
     font-size: 3em;
@@ -479,19 +471,11 @@ button:hover{
 
 
 
-/*----------------------------MEDIA--------------------*/
+/*---------------------------------MEDIA--------------------------------------------------*/
 
 
-
-
-@media(max-width:900px){
+@media(max-width:1100px){
     /*----------MENU Y HEADER------------*/
-    body{
-        width: 800px;
-        padding: 8px 20px;
-        margin: 0%;
-    }
-    
     header{
         background-color: white;
         height: 60px;
@@ -548,83 +532,87 @@ button:hover{
     .nav-menu-link:active{
         border: none;
     }
-    /*---------------FIN DEL MENU Y HEADER-----------*/
+
+
+}
+/*---------------FIN DEL MENU Y HEADER-----------*/
+
+@media(max-width:900px){
     /*-------------------PRESENTACION------------------------*/
     .presentacion{
         display: block;
         margin-bottom: -9.37em;
         padding-top: 41em;
         margin-left: -60px;
-        
+    }
+    .presentacion-texto{
+        width: 100%;
+        /* border: 1px solid black;*/
+        margin-top: -30em;
+    }
+    .presentacion-texto h1{
+        font-size: 30px;
+        font-family: 'Mukta', sans-serif;
+        margin-bottom: -1em;
+        text-align: center;
+    }
+    .presentacion-texto h2{
+        font-size: 3.25em;
+        color: #ff6584;
+        font-family: 'Anton', sans-serif;
+        text-shadow: 0.12em 0.12em 0.06em black;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .presentacion-texto p{
+        text-align: center;
+         margin-top: 20px;
+    }
+    .presentacion-texto button{
+        border-radius: 2em;
+        background-color: #e68992;
+        padding: 0.9em 2.5em 0.9em 2.5em;
+        margin-top: 70px;
+        margin-left: 30em;
+         font-size: 12px;
           
     }
-      .presentacion-texto{
-          width: 100%;
-         /* border: 1px solid black;*/
-          margin-top: -30em;
-        }
-      .presentacion-texto h1{
-          font-size: 30px;
-          font-family: 'Mukta', sans-serif;
-          margin-bottom: -1em;
-          text-align: center;
-        }
-      .presentacion-texto h2{
-          font-size: 3.25em;
-          color: #ff6584;
-          font-family: 'Anton', sans-serif;
-          text-shadow: 0.12em 0.12em 0.06em black;
-          text-align: center;
-          margin-top: 40px;
-        }
-      .presentacion-texto p{
-          text-align: center;
-          margin-top: 20px;
-        }
-      .presentacion-texto button{
-          border-radius: 2em;
-          background-color: #e68992;
-          padding: 0.9em 2.5em 0.9em 2.5em;
-          margin-top: 70px;
-          margin-left: 30em;
-          font-size: 12px;
-          
-        }
-     
-      
-      
-      .presentacion-imagen{
-          /*border: 1px solid black;*/
-          margin-top: -24em;
-          margin-left: 250px;
-          
-          height: 70%;
+    .presentacion-imagen{
+        /*border: 1px solid black;*/
+        margin-top: -24em;
+        margin-left: 250px;
+        height: 70%;
   
-        }
-      /*---------------conocimientos-----------*/
+    }
+    /*---------------conocimientos-----------*/
 
-      .mis-conocimientos{
+    .mis-conocimientos{
         display: flex;
         flex-wrap: wrap;
         background-color: #faeff1;
-        margin-top: 200px;
+        margin-top: 300px;
+        margin-left: -20px;
         padding-right: 50px;
         padding-left: 50px;
-        margin-left: -20px;
-        }
+        padding-bottom: 200px;
+           
+    }
    
     .conocimientos-texto h1{
         font-size: 45px;
-        margin-top: 3em;
-        
-        
+         margin-top: 3em;
     }
     .conocimientos-texto p{
         font-size: 20px;
         margin-left: 220px;
-       
-         
     }
+    .conocimientos-imagenes{
+        border: 1px solid black;
+        margin: 0px 200px 0px 200px;
+    }
+    .conocimientos-imagen{
+           margin-bottom: 100px;
+        }
     
     /*------------cita----------------*/
     .cita{
@@ -638,17 +626,11 @@ button:hover{
         /*border: 1px solid black;*/
         margin-top: -6.25em;
         margin-left: 50px;
-        
-        
     }
     .cita-texto{
         /*border: 1px solid black;*/
-    
         margin-left: -110px;
     }
-    
-    
-    
     
     
     
@@ -674,19 +656,17 @@ button:hover{
     .cuadrado-contactame{
         margin: 0%;
         display: block;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         padding-right: -1200px;
         margin-top: 300px;
         width: 800px;
         padding-bottom: 200px;
-        
+        border: none;
     }
 
     .contactame-caja{
-        border: 1px solid black;
-        margin: 0%;
-    
-        
+        /* border: 1px solid black;*/
+         margin: 0%;
     }
     
     
@@ -707,71 +687,70 @@ button:hover{
     
     
     .formulario-escribime{
-        border: 1px solid black;
+        /* border: 1px solid black;*/
         margin-left: 1px;
         padding-left: 50px;
         padding-right: 250px;
-        
-        
-    
     }
     .escribime-titulo{
         font-size: 3em;
         
     }
   
-    }
+    
     input{
         max-width: 200px;
     }
     textarea{
-        max-width: 31em;
+        max-width: 600px;
         max-height: 12.5em;
+    }
+    button{
+        padding: 0.6em 2.5em 0.6em 2.5em; /* se ajusta con el paddin d las otras palabras*/
+        border-radius: 25px;
+        background-color: #e68992;
+        font-size: 20px;
+        margin-top: 50px;
     }
    
     /*-------------------FOOTHER------------------ */
     .footer{
         border: 0.06em solid black;
         background-color: black; /*NO TIENE WIDTH, SE LO BORRE XQ ME DABA UN MARGEN*/
-        height: 18.75em;
+        width: 100%;
+        padding-left: 78px;
+
         
-        
-        
-    }
+        }
     .footer-caja{
         display: flex;
         border: 0.06em solid black;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 5em;
-        font-family: 'Archivo Narrow', sans-serif;
-        color: #ff6584;
-        margin-left: 150px;
+        margin-left: -150px;
         
-    }
-    .footer-caja a{
-        text-decoration: none;
-        color: #ff6584;
-    }
-    .footer-caja a:hover{
-        color: #fae1e3;
     }
     
     .footer-hola{
-        border: 0.06em solid black;
-        margin-left: 1.25em;
+        font-size: 20px;
+        
     }
     
     
     .footer-contacto-caja{
-       margin-left: 31.25em;
+       
        margin-bottom: 6.25em;
        margin-top: -4.37em;
-       margin-left: 340px;
+       margin-left: 200px;
+       border: 1px solid white;
+       
     }
+    
     .footer-contacto li{
+        
         float: left;
-        padding: 0.62em;
+        padding: 0.6;
+        
         
     }
     
@@ -781,7 +760,7 @@ button:hover{
         padding: 0.31em;
     }
     .hecho p{
-        margin-left: 150px;
+        margin-left: -140px;
     }
 
 
@@ -791,7 +770,632 @@ button:hover{
 
 
 
-}   /*------------------FIN 900-----------------*/ 
+}   
+/*------------------FIN 900-----------------*/ 
+
+
+
+/*----------COMIENZO 700PX-----------------*/
+@media(max-width:700px){
+
+    .presentacion{
+        display: block;
+        margin-bottom: -9.37em;
+        padding-top: 41em;
+        margin-left: -60px;
+    }
+    .presentacion-texto{
+        width: 100%;
+        /* border: 1px solid black;*/
+        margin-top: -30em;
+    }
+    .presentacion-texto h1{
+        font-size: 30px;
+        font-family: 'Mukta', sans-serif;
+        margin-bottom: -1em;
+        text-align: center;
+    }
+    .presentacion-texto h2{
+        font-size: 3.25em;
+        color: #ff6584;
+        font-family: 'Anton', sans-serif;
+        text-shadow: 0.12em 0.12em 0.06em black;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .presentacion-texto p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .presentacion-texto button{
+        border-radius: 2em;
+        background-color: #e68992;
+        padding: 0.9em 2.5em 0.9em 2.5em;
+        margin-top: 70px;
+        margin-left: 230px;
+        font-size: 18px;
+    }
+    .presentacion-imagen{
+        /*border: 1px solid black;*/
+        margin-top: -24em;
+        margin-left: 250px;
+        height: 70%;
+    }
+    /*---------------conocimientos-----------*/
+    
+    .mis-conocimientos{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #faeff1;
+        margin-top: 300px;
+        margin-left: -20px;
+        padding-right: 50px;
+        padding-left: 130px;
+        padding-bottom: 200px;         
+    }
+       
+    .conocimientos-texto h1{
+        font-size: 45px;
+        margin-top: 3em;   
+    }
+    .conocimientos-texto p{
+        font-size: 20px;
+        margin-left: 150px;
+    }
+    
+    .conocimientos-imagenes{
+        border: 1px solid black;
+        margin: 0px 100px 0px 100px;
+        padding-bottom: 100px;
+    }
+    /*------------cita----------------*/
+    .cita{
+        /*border: 1px solid black;*/
+        display: flex;
+        margin-top: -12.5em;
+        margin-left: -20px;
+        padding-left: 178px;
+    }
+    .cita-imagen{
+        /*border: 1px solid black;*/
+        margin-top: -6.25em;
+        margin-left: 40px;
+    }
+   
+    .cita-texto{
+        /*border: 1px solid black;*/
+        margin-left: -110px;
+    }
+    /*-------------proyecto-------------*/
+    .proyecto{
+        /*border: 1px solid black;*/
+        margin-left: 50px;
+    }
+      
+    .proyecto-texto h1{
+        font-size: 50px;
+        margin-left: 40px;
+           
+    }
+    .proyecto-texto p{
+        font-size: 20px;
+        margin-left: 90px;
+    }
+    /*----------footer----------------*/
+    .footer{
+        border: 0.06em solid black;
+        background-color: black; /*NO TIENE WIDTH, SE LO BORRE XQ ME DABA UN MARGEN*/
+        width: 100%;
+        padding-left: 158px;
+    }
+           
+    .footer-hola{
+        border: 1px solid white;
+        display: none;
+    }
+            
+            
+    .footer-contacto-caja{
+               
+        margin-bottom: 6.25em;
+        margin-top: -100px;
+        margin-left: 100px;
+        border: 1px solid white;
+    }
+    
+            
+    .footer-contacto li{
+        float: left;
+        padding: 0.6;     
+    }
+            
+    .footer-contacto .items-contacto:hover{
+        border: 0.06em solid #ff6584;
+        border-radius: 3.12em;
+        padding: 0.31em;
+    }
+    .hecho p{
+        margin-left: -140px;
+    }
+        
+
+
+
+}
+
+
+    /*--------------Fin 700px------------------*/
+
+@media(max-width:600px){
+        .presentacion{
+            display: block;
+            margin-bottom: -9.37em;
+            padding-top: 41em;
+            margin-left: 180px;
+        }
+        .presentacion-texto{
+            width: 100%;
+            /* border: 1px solid black;*/
+            margin-top: -30em;
+        }
+        .presentacion-texto h1{
+            font-size: 200px;
+        }
+        .presentacion-texto h2{
+            font-size: 100px;
+            color: #ff6584;
+            font-family: 'Anton', sans-serif;
+            text-shadow: 0.12em 0.12em 0.06em black;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .presentacion-texto p{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .presentacion-texto button{
+            border-radius: 2em;
+            background-color: #e68992;
+            padding: 0.9em 2.5em 0.9em 2.5em;
+            margin-top: 70px;
+            margin-left: 230px;
+            font-size: 18px;
+              
+        }
+        .presentacion-imagen{
+            border: 1px solid black;
+            margin-top: -24em;
+            height: 70%;
+            width: 750px;
+      
+        }
+         /*---------------conocimientos-----------*/
+    
+         .mis-conocimientos{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #faeff1;
+            margin-top: 300px;
+            padding-right: 150px;
+            padding-bottom: 200px;
+        }
+   
+        .conocimientos-texto h1{
+            font-size: 60px;
+            margin-top: 10px;
+        
+        }
+        .conocimientos-texto p{
+            font-size: 20px;
+            margin-left: 150px;
+        }
+
+        .conocimientos-imagenes{
+            border: 1px solid black;
+            margin: 0px 100px 0px 100px;
+            padding-bottom: 100px;
+
+        }
+        
+        /*------------cita----------------*/
+        .cita{
+        /*border: 1px solid black;*/
+        display: flex;
+        margin-top: -12.5em;
+        margin-left: -20px;
+        padding-left: 280px;
+        }
+        .cita-imagen{
+        /*border: 1px solid black;*/
+        margin-top: -6.25em;
+        margin-left: 40px;
+        }
+
+        .cita-texto{
+        /*border: 1px solid black;*/
+        margin-left: -110px;
+        }
+        /*-------------proyecto-------------*/
+        .proyecto{
+            /*border: 1px solid black;*/
+           margin-left: 90px;
+        }
+  
+       .proyecto-texto h1{
+           font-size: 50px;
+           margin-left: 40px;
+       
+        }
+       .proyecto-texto p{
+           font-size: 20px;
+           margin-left: 90px;
+        }
+        /*----------footer----------------*/
+        .footer{
+            border: 0.06em solid black;
+            background-color: black; /*NO TIENE WIDTH, SE LO BORRE XQ ME DABA UN MARGEN*/
+            width: 100%;
+            padding-left: 158px;
+        }
+       
+        .footer-hola{
+            border: 1px solid white;
+            display: none;
+        }
+        
+        
+        .footer-contacto-caja{
+           
+           margin-bottom: 6.25em;
+           margin-top: -100px;
+           margin-left: 50px;
+           border: 1px solid white;
+           
+        }
+        
+        
+        .footer-contacto li{
+            float: left;
+            padding: 0.6;
+            
+        }
+        
+        .footer-contacto .items-contacto:hover{
+            border: 0.06em solid #ff6584;
+            border-radius: 3.12em;
+            padding: 0.31em;
+        }
+        .hecho p{
+            margin-left: -140px;
+        }
+    
+
+
+
+}
+
+@media(max-width:550px){ /* cambia la fila de mis proyectos, se vuelve una columna*/
+    .presentacion{
+        display: block;
+        margin-bottom: -9.37em;
+        padding-top: 41em;
+        margin-left: 180px;
+    }
+    .presentacion-texto{
+        width: 100%;
+        /* border: 1px solid black;*/
+        margin-top: -30em;
+    }
+    .presentacion-texto h1{
+        font-size: 200px;
+    }
+    .presentacion-texto h2{
+        font-size: 100px;
+        color: #ff6584;
+        font-family: 'Anton', sans-serif;
+        text-shadow: 0.12em 0.12em 0.06em black;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .presentacion-texto p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .presentacion-texto button{
+        border-radius: 2em;
+        background-color: #e68992;
+        padding: 0.9em 2.5em 0.9em 2.5em;
+        margin-top: 70px;
+        margin-left: 230px;
+        font-size: 18px;
+          
+    }
+    .presentacion-imagen{
+        border: 1px solid black;
+        margin-top: -24em;
+        height: 70%;
+        width: 750px;
+  
+    }
+     /*---------------conocimientos-----------*/
+
+     .mis-conocimientos{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #faeff1;
+        margin-top: 300px;
+        padding-right: 150px;
+        padding-bottom: 200px;
+    }
+
+    .conocimientos-texto h1{
+        font-size: 60px;
+        margin-top: 10px;
+    
+    }
+    .conocimientos-texto p{
+        font-size: 20px;
+        margin-left: 150px;
+    }
+
+    .conocimientos-imagenes{
+        border: 1px solid black;
+        margin: 0px 100px 0px 100px;
+        padding-bottom: 100px;
+
+    }
+    
+    /*------------cita----------------*/
+    .cita{
+    /*border: 1px solid black;*/
+    display: flex;
+    margin-top: -12.5em;
+    margin-left: -20px;
+    padding-left: 280px;
+    }
+    .cita-imagen{
+    /*border: 1px solid black;*/
+    margin-top: -6.25em;
+    margin-left: 40px;
+    }
+
+    .cita-texto{
+    /*border: 1px solid black;*/
+    margin-left: -110px;
+    }
+    /*-------------proyecto-------------*/
+    .proyecto{
+        /*border: 1px solid black;*/
+       margin-left: 90px;
+    }
+
+   .proyecto-texto h1{
+       font-size: 50px;
+       margin-left: 40px;
+   
+    }
+   .proyecto-texto p{
+       font-size: 20px;
+       margin-left: 90px;
+    }
+    /*----------footer----------------*/
+    .footer{
+        border: 0.06em solid black;
+        background-color: black; /*NO TIENE WIDTH, SE LO BORRE XQ ME DABA UN MARGEN*/
+        width: 100%;
+        padding-left: 158px;
+    }
+   
+    .footer-hola{
+        border: 1px solid white;
+        display: none;
+    }
+    
+    
+    .footer-contacto-caja{
+       
+       margin-bottom: 6.25em;
+       margin-top: -100px;
+       margin-left: 50px;
+       border: 1px solid white;
+       
+    }
+    
+    
+    .footer-contacto li{
+        float: left;
+        padding: 0.6;
+        
+    }
+    
+    .footer-contacto .items-contacto:hover{
+        border: 0.06em solid #ff6584;
+        border-radius: 3.12em;
+        padding: 0.31em;
+    }
+    .hecho p{
+        margin-left: -140px;
+    }
+
+}
+@media(max-width:350px){
+    .presentacion{
+        display: block;
+        margin-bottom: -9.37em;
+        padding-top: 41em;
+        margin-left: 180px;
+    }
+    .presentacion-texto{
+        width: 100%;
+        /* border: 1px solid black;*/
+        margin-top: -30em;
+    }
+    .presentacion-texto h1{
+        font-size: 200px;
+    }
+    .presentacion-texto h2{
+        font-size: 100px;
+        color: #ff6584;
+        font-family: 'Anton', sans-serif;
+        text-shadow: 0.12em 0.12em 0.06em black;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .presentacion-texto p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .presentacion-texto button{
+        border-radius: 2em;
+        background-color: #e68992;
+        padding: 0.9em 2.5em 0.9em 2.5em;
+        margin-top: 70px;
+        margin-left: 230px;
+        font-size: 18px;
+          
+    }
+    .presentacion-imagen{
+        border: 1px solid black;
+        margin-top: -24em;
+        height: 70%;
+        width: 750px;
+  
+    }
+     /*---------------conocimientos-----------*/
+
+     .mis-conocimientos{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #faeff1;
+        margin-top: 300px;
+        padding-right: 150px;
+        padding-bottom: 200px;
+    }
+
+    .conocimientos-texto h1{
+        font-size: 60px;
+        margin-top: 10px;
+    
+    }
+    .conocimientos-texto p{
+        font-size: 20px;
+        margin-left: 150px;
+    }
+
+    .conocimientos-imagenes{
+        border: 1px solid black;
+        margin: 0px 100px 0px 100px;
+        padding-bottom: 100px;
+
+    }
+    
+    /*------------cita----------------*/
+    .cita{
+    /*border: 1px solid black;*/
+    display: flex;
+    margin-top: -12.5em;
+    margin-left: -20px;
+    padding-left: 280px;
+    }
+    .cita-imagen{
+    /*border: 1px solid black;*/
+    margin-top: -6.25em;
+    margin-left: 40px;
+    }
+
+    .cita-texto{
+    /*border: 1px solid black;*/
+    margin-left: -110px;
+    }
+    /*-------------proyecto-------------*/
+    .proyecto{
+        /*border: 1px solid black;*/
+       margin-left: 90px;
+    }
+
+   .proyecto-texto h1{
+       font-size: 50px;
+       margin-left: 40px;
+   
+    }
+   .proyecto-texto p{
+       font-size: 20px;
+       margin-left: 90px;
+    }
+    /*----------footer----------------*/
+    .footer{
+        border: 0.06em solid black;
+        background-color: black; /*NO TIENE WIDTH, SE LO BORRE XQ ME DABA UN MARGEN*/
+        width: 100%;
+        padding-left: 158px;
+    }
+   
+    .footer-hola{
+        border: 1px solid white;
+        display: none;
+    }
+    
+    
+    .footer-contacto-caja{
+       
+       margin-bottom: 6.25em;
+       margin-top: -100px;
+       margin-left: 50px;
+       border: 1px solid white;
+       
+    }
+    
+    .footer-contacto li{
+        float: left;
+        padding: 0.6;
+        
+    }
+    
+    .footer-contacto .items-contacto:hover{
+        border: 0.06em solid #ff6584;
+        border-radius: 3.12em;
+        padding: 0.31em;
+    }
+    .hecho p{
+        margin-left: -140px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 
@@ -830,7 +1434,7 @@ button:hover{
 
 
 
-    /*-------------------PRESENTACION------------------------*/
+
 
 @media(max-width:690px){
     body{
@@ -881,8 +1485,8 @@ button:hover{
         
     }
     .presentacion-texto button:hover{
-            background-color: #cfbcbc;
-            color: white;
+        background-color: #cfbcbc;
+        color: white;
             
     }
     .presentacion-texto button a{
