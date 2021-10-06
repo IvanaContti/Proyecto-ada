@@ -1,0 +1,149 @@
+@media(max-width:350px){
+    /*------------------Section presentacion--------------------------------*/
+
+    .presentacion{
+        
+        /*border: 1px solid red;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: -9.37em;
+        padding-top: 43.75em;
+        
+    }
+    .presentacion-texto{
+        width: 50em;
+        /*border: 1px solid black;*/
+        margin-top: -15em;
+        margin-left: 50px;
+        text-align: center;
+        
+        
+    }
+    .presentacion-texto h1{
+        font-size: 80px;
+        font-family: 'Mukta', sans-serif;
+        margin-bottom: -1em;
+    }
+    .presentacion-texto h2{
+        font-size: 120px;
+        color: #ff6584;
+        font-family: 'Anton', sans-serif;
+        text-shadow: 5px 5px 4px black;
+        font-weight: 600;
+        
+    }
+    .presentacion-texto p{
+        font-size: 40px;
+    }
+    .presentacion-texto button{
+        border-radius: 1.25em;
+        background-color: #e68992;
+        padding: 50px 70px;
+        font-weight: 600;
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 50px;
+        
+    }
+    .presentacion-texto button:hover{
+            background-color: #cfbcbc;
+            color: white;
+            
+    }
+    .presentacion-texto button a{
+        text-decoration: none;
+        color: black;
+    } 
+    
+    .presentacion-imagen{
+        /*border: 1px solid black;*/
+        margin-top: -150px;
+        width: 900px;
+        padding-bottom: 300px;
+        margin-left: 40px;
+
+    }
+       
+    /*Fin Section presentacion*/
+    /*-------------------------Mis conocimientos--------------------*/
+    .mis-conocimientos{
+        
+        
+        display: flex;
+        /*border: 1px solid black;*/
+        flex-direction: column;
+        justify-content: center;
+        background-color: #faeff1;
+        width: 100%;
+        margin-bottom: 12.5em;
+        
+        
+
+    }
+    .conocimientos-texto{
+        width: 100%;
+    }
+
+    .conocimientos-texto h1{
+        font-size: 45px;
+        margin-top: 3em;
+        text-align: center;
+        
+    }
+    .conocimientos-texto p{
+        width: 10%auto;
+        margin-left: 21.87em;
+        text-align: center;
+        
+        
+    }
+
+    /*------propiedades de los contenedores de cada imagen-------*/
+    .conocimientos-imagenes{
+        
+        height: 25em;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 3.12em;
+        margin-bottom: 6.25em;
+        margin-left: -3.25em;
+    }
+
+    .conocimientos-imagenes p{
+        text-align: center;
+        
+        
+    }
+
+    /*----propiedades de cada imagen-----*/
+    .conocimientos-imagen{
+        width: 6.25em;
+        height: 6.25em;
+        border-radius: 3.12em;
+        margin-left: 5.62em;
+        
+    }
+
+    .conocimientos-imagen:hover{
+        border: 0.18em solid #ff6584;
+        color: #ff6584;
+    }
+
+
+
+    /*------------- FIN de Mis conocimientos--------------------*/
+
+
+
+
+
+
+
+
+
+
+}

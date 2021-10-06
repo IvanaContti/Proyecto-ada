@@ -8,33 +8,41 @@
         <meta name="description" content="pagina portafolio proyecto para Ada"> 
         <script src="https://kit.fontawesome.com/374c00aec0.js" crossorigin="anonymous"></script> <!---link de los iconos-->
         <link href="css/index.css" rel="stylesheet">
-        <link href="index2.css" rel="stylesheet">
+        <link href="./css/indexmedia.css" rel="stylesheet">
         <link rel="icon" href="./logos/programacion.svg">
-        <script defer src="./js/index.js"></script>
+        <!--<script defer src="./js/index.js"></script>-->
         <!--LINKS EXTERNOS-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
-        
-
-
     </head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap');/*letra del contti ivana*/
+    </style>
+
+
+
+
+
+
+
+
     <body>
-        <!--------------------------menu---------------->
+        <!--------------------------menu------------------->
         <header>
             <nav class="nav">
                 <!--MENU HAMBURGUESA--> 
-                <button class="nav-toggle">
+                <button class="nav-toggle" aria-label="Abrir menú">
                 <i class="fas fa-bars"></i>
                 </button> 
                 <!--FIN MENU HAMBURGUESA--> 
-            <ul class="nav-menu nav-menu_visible" style="@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Permanent+Marker&display=swap');">
-                <li class="nav-menu-link"><a href="#hola">HOLA</a></li>
-                <li class="nav-menu-link"><a href="#conocimientos">CONOCIMIENTOS</a></li>
-                <li class="nav-menu-link"><a href="#proyectos">PROYECTOS</a></li>
-                <li class="nav-menu-contacto"><a href="#contacto">CONTACTO</a> </li>
-            </ul>
+                <ul class="nav-menu nav-menu_visible">
+                    <li class="nav-menu-link" ><a href="#hola">HOLA</a></li>
+                    <li class="nav-menu-link"><a href="#conocimientos">CONOCIMIENTOS</a></li>
+                    <li class="nav-menu-link"><a href="#proyectos">PROYECTOS</a></li>
+                </ul>
+                <div class="nav-menu-contacto">
+                    <button >CONTACTO</button>
+                </div>
             </nav>
         </header>
         <!------------------------Presentacion-------------------------->
@@ -48,20 +56,20 @@
                 </div>
                 <div class="presentacion-imagen" >
                     <figure >
-                        <img src="./imagenes/proyecto.png" width="90%" height="90%"  alt="">
+                        <img src="./imagenes/presentacion.svg"  alt="">
                     </figure>
                 
                 </div>
             </section >
-            <!--------------------Mis conocimientos--------------------->
+            <!--------------------Mis conocimientos
             <section id="conocimientos"></section>
 
             <section class="mis-conocimientos" >
                 <div class="conocimientos-texto">
                     <h1>Mis Conocimientos</h1>
                     <p>Como estudiante incial de Ada, mis conocimientos en este momento se centran en el desarrollo de estructuras en HTML, dar estilo con CSS y subir proyectos a GitHub.</p>
-                </div>
-            <!-----------------Mis conocimientos imagenes---------------------> 
+                </div>--------------------->
+            <!-----------------Mis conocimientos imagenes
                 <div class="conocimientos-imagenes">
                     <div class="conocimientos-imagen">
                         <img src="./logos/svg/003-html-5.svg" alt="">
@@ -90,21 +98,21 @@
                     
                 </div> 
 
-            </section>
-            <!----------------------cita------------------------>
+            </section>---------------------> 
+            <!----------------------cita
             <section class="cita"> 
                 <div class="cita-imagen">
                     <figure>
-                        <img src="./logos/svg/comillas.svg" style="width: 50%; height: 50%;" alt="">
+                        <img src="./logos/svg/comillas.svg" style="width: 40%; height: 40%;" alt="">
                     </figure>
                 </div>
                 <div class="cita-texto">
                     <p>Sueño mi pintura y pinto mi sueño.</p>
                     <p style="font-size: 30px; font-weight: bolder;">Vincent van Gogh</p>
                 </div>
-            </section>
-            <!--------------------Mis proyectos----------------->
-            <section class="proyecto" id="proyectos">
+            </section>------------------------>
+            <!--------------------Mis proyectos
+            <section class="proyecto">
                 <div class="proyecto-texto">
                     <h1>Mis proyectos</h1>
                     <p>Dejo una seleccion de trabajos, hechos en el transcurso de la cursada de Ada.</p>            
@@ -121,18 +129,18 @@
                     <div class="proyecto1">
                         <img src="./imagenes/undraw_outdoors_amdn.svg" style="width: 100%; height: 100%;" alt="">
                         <p>Galeria de Flores</p>
-                    </div>
+                    </div>----------------->
                     <!--<div class="proyecto4"></div>
                     <div class="proyecto5"></div>
-                    <div class="proyecto6"></div> -->
+                    <div class="proyecto6"></div> 
                 </div>
-            </section>
+            </section>-->
 
 
-            <!------------------------------Contactame-------------------------------->
+            <!------------------------------Contactame
             
-            <section class="cuadrado-contactame" id="contacto" >
-                <div class="contactame-caja" ><!--estaba la clase "contactame" y le agregue el -cuadrado para poder modificar el cuadrado contenedor-->
+            <section class="cuadrado-contactame">-------------------------------->
+                <div class="contactame-caja" ><!--estaba la clase "contactame" y le agregue el -cuadrado para poder modificar el cuadrado contenedor
                     <h1 class="contactame"> Contactame </h1>
                     <p class="contactame">Propuestas de trabajo, consultas y demas.</p>
                     <p class="contactame">Podes encontrarme tambien en:</p>
@@ -172,9 +180,9 @@
                     <button type="submit">Enviar</button>
                 </div>
             </section>
-        </main>
+        </main>-->
 
-        <!------------------------------Footer--------------------------->
+        <!------------------------------Footer
         <footer class="footer">
             <div class="footer-caja" style="@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Permanent+Marker&display=swap');">
                 <div class="footer-hola"><a href="#hola">HOLA</a></div>
@@ -193,7 +201,7 @@
             <div class="hecho">
                 <p style="text-align: center; color: white;">Hecho con &#128151; por Ivana</p>
             </div>
-        </footer>
+        </footer>--------------------------->
 
 
 
