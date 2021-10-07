@@ -264,10 +264,17 @@ header{
 }
 .cita-imagen{
     /*border: 1px solid black;*/
-    margin-top: -6.25em;
-    margin-left: 10em;
+    width: 100%;
+    
+
     
     
+}
+.cita-imagen img{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
 }
 .cita-texto{
     /*border: 1px solid black;*/
@@ -283,13 +290,14 @@ header{
 
 
 
-/*---------------Proyecto------------*/
+/*----------------------------------------Proyecto-----------------------------------------*/
 .proyecto{
-    /*border: 1px solid black;*/
+    border: 1px solid red;
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Varela Round', sans-serif;
     
 }
 .proyecto-texto{
@@ -308,28 +316,40 @@ header{
     text-align: center;
 }
 .proyecto-imagenes{
-    /*border: 1px solid black;*/
+    /*border: 1px solid blue;*/
     display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
     justify-content: center;
-    margin-top: 6.25em;
-    margin-left: -15px;
+    padding: 100px;
+    width: 100%;
+    
 }
 .proyecto-imagenes p{
     text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 .proyecto1{
-    border: 0.06em solid black;
-    width: 18.75em;
-    height: 18.75em;
-    margin-left: 4.37em;
+    border: 0.06em solid rgb(44, 44, 44);
+    margin: 30px 15px;
+    padding-bottom: 80px;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+   
+}
+.proyecto1 img{
+    width: 100%;
+    height: 100%;
 }
 .proyecto1:hover{
     border: 0.06em solid #ff6584;
-    padding: 0em;
     color: #ff6584;
+    margin: 30px 15px;
+    padding-bottom: 80px;
+    border-radius: 10px;
 }
 
 /*-------------------Contactame---------------------------*/

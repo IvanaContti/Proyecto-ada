@@ -175,7 +175,7 @@
     /*Fin Section presentacion*/
 
  /*-------------------------------Mis conocimientos-----------------------------------------*/
- .conocimientos-imagenes{
+    .conocimientos-imagenes{
         /*border: 1px solid black;*/
         display: flex;
         justify-content: center;
@@ -188,8 +188,43 @@
     
     }
 
+    /*----------------------------------------Proyecto-----------------------------------------*/
+    .proyecto1{
+        border: 0.06em solid rgb(44, 44, 44);
+        margin: 30px 15px;
+        padding-bottom: 80px;
+        height: 150px;
+        width: 250px;
+        border-radius: 10px;
+        
+       
+    }
+    .proyecto1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .proyecto-imagenes{
+        border: 1px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+        padding: 0px;
+        width: 100%;
+        
+    }
+
+
+
+
 
 }
+
+
+
+
+
+
 
 @media(max-width:900px){
     /*-------------------------------Mis conocimientos-----------------------------------------*/
@@ -205,6 +240,26 @@
         background-color: white;
     
     }
+    /*----------------------------------------Proyecto-----------------------------------------*/
+    .proyecto1{
+        border: 0.06em solid rgb(44, 44, 44);
+        margin: 30px 15px;
+        padding-bottom: 80px;
+        height: 250px;
+        width: 350px;
+        border-radius: 10px;
+    }
+
+    .proyecto-imagenes{
+        border: 1px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+        padding: 0px;
+        width: 100%;
+        
+    }
 
 
 
@@ -213,6 +268,7 @@
 
 
 @media(max-width:700px){
+     /*------------------Section presentacion--------------------------------*/
     .presentacion{
             
         /*border: 1px solid red;*/
@@ -229,6 +285,27 @@
         width: 80%;
         height: 80%;
         margin-left: 10%;
+        
+    }
+
+     /*----------------------------------------Proyecto-----------------------------------------*/
+     .proyecto1{
+        border: 0.06em solid rgb(44, 44, 44);
+        margin: 30px 15px;
+        padding-bottom: 80px;
+        height: 150px;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+     .proyecto-imagenes{
+        border: 1px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+        padding: 0px;
+        width: 100%;
         
     }
 
@@ -254,14 +331,14 @@
     
     }
 
-
-
+    
 
 
 }
 
 
 @media(max-width:550px){
+     /*------------------Section presentacion--------------------------------*/
     .presentacion-texto h1{
         font-size: 25px;
         margin-top: 0px;
@@ -285,6 +362,19 @@
         width: 90%;
         height: 90%;
         margin-left: 5%;
+        
+    }
+
+     /*----------------------------------------Proyecto-----------------------------------------*/
+
+     .proyecto-imagenes{
+        border: 1px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+        padding: 0px;
+        width: 100%;
         
     }
 
@@ -324,6 +414,7 @@
 
 
 @media(max-width:450px){
+     /*------------------Section presentacion--------------------------------*/
     .presentacion-texto button{
         border-radius: 1.25em;
         background-color: #e68992;
