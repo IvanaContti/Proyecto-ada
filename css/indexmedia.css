@@ -363,6 +363,94 @@
     }
 
 
+  /*-------------------FOOTHER------------------ */
+
+  .footer{
+    border: 0.06em solid red;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+    }
+    .footer-caja{
+        display: flex;
+        /*border: 0.06em solid blue;*/
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5em;
+        font-family: 'Archivo Narrow', sans-serif;
+        color: #ff6584;
+        width: 100%;
+        
+    }
+    .footer-caja a{
+        text-decoration: none;
+        color: #ff6584;
+    }
+    .footer-caja a:hover{
+        color: #fae1e3;
+    }
+
+    .footer-hola{
+        border: 0.06em solid black;
+        margin-left: 1.25em;
+    }
+
+    .footer-contacto-caja{
+        width: 100%;
+        border: 1px solid green;
+        justify-content: center;
+    }
+
+
+
+    .footer-contacto{
+    
+    border: 1px solid purple;
+    width: 94%;
+    height: 62%;
+    display: flex;
+    justify-content: center;
+    
+    
+
+    }
+
+    .hecho{
+        border: 1px solid blue;
+        width: 100%;
+    }
+
+    .hecho p{
+        text-align: center; 
+        color: black;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+
+    .items-contacto{
+        border: 1px solid black;
+        border-radius: 100px;
+        margin-left: 10px;
+
+    }
+
+    .footer-contacto .items-contacto:hover{
+        border: 0.06em solid white;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -650,6 +738,281 @@
         
     }
 
+    /*---------------fotmulario--------------------*/
+
+    .formulario-completo{
+        /*border: 1px solid black;*/
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        background-color: white;
+        padding: 100px 0px 100px 0px;
+    
+    }
+    
+    
+    
+    
+    .cuadrado-contactame{
+        /*border: 0.06em solid #ff6584;*/
+        border-radius: 20px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Varela Round', sans-serif;
+        background-color: white;
+        padding-bottom: 100px;
+        border: none;
+        
+    }
+    
+    .contactame-caja{
+        /*border: 1px solid blue;*/
+        width: 100%;
+       
+    }
+    
+    
+    
+    /*contactame texto- parrafo*/
+    .contactame-caja h1{
+        /*border: 1px solid black;*/
+        font-size: 3em;
+        margin-left: 1em;
+        
+    }
+    .contactame-caja p{
+        /*border: 1px solid black;*/
+        line-height: 25px;
+        margin-left: 3.12em;
+        font-size: 18px;
+    }
+    .contactame-cuadrado-links{
+       
+        /*border: 1px solid black;*/
+        width: 80%;
+        margin-left: 1.25em;
+        line-height: 3.43em;
+        font-size: 16px;
+        padding-top: 10px;
+    
+        
+    }
+    .contactame-cuadrado-links ul{
+        /*border: 1px solid black;*/
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        
+    }
+   
+
+    #twiter{
+        width: 40%;
+    }
+    #mail{
+        width: 40%;
+    }
+    #git{
+        width: 40%;
+    }
+    #linkedin{
+        width: 40%;
+    }
+        
+    .contactame-cuadrado-links li:active{
+        padding: 0.06em -1.25em 0.06em -1.25em;
+        border: 0.06em solid #ff6584;
+        border-radius: 1.25em;
+    }
+    
+    .icono{
+        padding: 0.5em;
+        color: #ff6584;
+        font-size: 25px;
+    
+    }
+    
+    .items-contacto a{
+        text-decoration: none;
+        color: black;
+    }
+    /*.items-contacto a:active{
+        padding: 10px 100px 10px 100px;
+        box-shadow: 10px 10px 10px #ff6584;
+        border-radius: 20px;
+    }*/
+    /*
+    .items-contacto a:hover{
+        color: #ff6584;
+    }
+    */
+    .items-contacto:hover a{
+        color: #ff6584;
+    }
+    
+    .items-contacto:hover .icono{
+        background-color: black;
+        color: #f0c2c6;
+        border-radius: 3em;
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    .formulario-escribime{
+        /*border: 1px solid yellow;*/
+        width: 100%;
+        
+        
+    
+    }
+    .escribime-titulo{
+        /*border: 1px solid black;*/
+        font-size: 3em;
+        margin-left: 50px;
+        
+        
+    }
+    .formulario{
+        /*border: 1px solid green;*/
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 3%;
+    }
+    #apellido{
+        /*border: 1px solid black;*/
+        margin-left: 55px;
+
+    }
+    input{
+        /*border: 1px solid black;*/
+        border-radius: 3.12em;
+        padding: 4%;
+        border: 0.06em solid #fae1e3;
+        background-color: #fae1e3;
+        width: 100%;
+    }
+    #email{
+        padding: 2%;
+    }
+    textarea{
+        /*border: 1px solid black;*/
+        border-radius: 1.25em;
+        background-color: #fae1e3;
+        max-width: 100%;
+        width: 100%;
+        max-height: 12.5em;
+    }
+    button{
+        /*border: 1px solid black;*/
+        padding: 10px 30px; /* se ajusta con el paddin d las otras palabras*/
+        border-radius: 25px;
+        background-color: #e68992;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        
+    }
+    button:hover{
+        background-color: #cfbcbc;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*-------------------FOOTHER------------------ */
+    .footer{
+        border: 0.06em solid red;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+    .footer-caja{
+        display: flex;
+        /*border: 0.06em solid blue;*/
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5em;
+        font-family: 'Archivo Narrow', sans-serif;
+        color: #ff6584;
+        width: 100%;
+        display: none;
+            
+    }
+    .footer-caja a{
+        text-decoration: none;
+        color: #ff6584;
+    }
+    .footer-caja a:hover{
+        color: #fae1e3;
+    }
+    
+    .footer-hola{
+        border: 0.06em solid black;
+        margin-left: 1.25em;
+        display: none;
+    }
+    
+    .footer-contacto-caja{
+        width: 100%;
+        border: 1px solid green;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    
+    
+    
+    .footer-contacto{
+        
+        border: 1px solid purple;
+        width: 94%;
+        height: 62%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .hecho{
+        border: 1px solid blue;
+        width: 100%;
+        
+    }
+    
+    .hecho p{
+        text-align: center; 
+        color: black;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    
+    .items-contacto{
+        border: 1px solid black;
+        border-radius: 100px;
+        margin-left: 10px;
+    
+    }
+    
+    .footer-contacto .items-contacto:hover{
+        border: 0.06em solid white;
+        color: white;
+    }
+
 
 
 
@@ -670,6 +1033,28 @@
         padding: 0px 100px;
         background-color: white;
     
+    }
+
+    /*--------footer-----------------*/
+    .footer-contacto{
+        
+        border: 1px solid purple;
+        width: 94%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    /*--------footer-----------------*/
+    .footer-contacto{
+        
+        border: 1px solid purple;
+        width: 85%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        
     }
 
     
@@ -949,6 +1334,18 @@
         
     }
 
+     /*--------footer-----------------*/
+     .footer-contacto{
+        
+        border: 1px solid purple;
+        width: 85%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
 
 
 
@@ -995,6 +1392,25 @@
         background-color: white;
         
     }
+
+    /*--------footer-----------------*/
+    .footer-contacto{
+        
+        border: 1px solid purple;
+        width: 75%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
+
+
+
+
+
+
 
 }
     
