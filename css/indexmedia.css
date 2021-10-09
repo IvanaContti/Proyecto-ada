@@ -678,6 +678,209 @@
 }
 
 
+
+@media(max-width:500px){
+    /*-------------------Contactame---------------------------*/
+    
+    .formulario-completo{
+        /*border: 1px solid black;*/
+        justify-content: center;
+        display: flex;
+        width: 90%;
+        background-color: white;
+        padding: 100px 0px 100px 0px;
+    
+    }
+    
+    
+    
+    
+    .cuadrado-contactame{
+        /*border: 0.06em solid #ff6584;*/
+        border-radius: 20px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Varela Round', sans-serif;
+        background-color: white;
+        padding-bottom: 100px;
+        border: none;
+        
+    }
+    
+    .contactame-caja{
+        /*border: 1px solid blue;*/
+        width: 100%;
+       
+    }
+    
+    
+    
+    /*contactame texto- parrafo*/
+    .contactame-caja h1{
+        /*border: 1px solid black;*/
+        font-size: 3em;
+        margin-left: 0%;
+        
+    }
+    .contactame-caja p{
+        /*border: 1px solid black;*/
+        line-height: 25px;
+        margin-left: 0%;
+        font-size: 18px;
+    }
+    .contactame-cuadrado-links{
+       
+        /*border: 1px solid black;*/
+        width: 80%;
+        margin-left: 1.25em;
+        line-height: 3.43em;
+        font-size: 18px;
+        padding-top: 10px;
+    
+        
+    }
+    .contactame-cuadrado-links ul{
+        /*border: 1px solid black;*/
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -12%;
+        
+        
+    }
+    
+    
+   
+
+    #twiter{
+        width: 100%;
+    }
+    #mail{
+        width: 100%;
+    }
+    #git{
+        width: 100%;
+    }
+    #linkedin{
+        width: 100%;
+    }
+        
+    .contactame-cuadrado-links li:active{
+        padding: 0.06em -1.25em 0.06em -1.25em;
+        border: 0.06em solid #ff6584;
+        border-radius: 1.25em;
+    }
+    
+    .icono{
+        padding: 0.5em;
+        color: #ff6584;
+        font-size: 25px;
+    
+    }
+    
+    .items-contacto a{
+        text-decoration: none;
+        color: black;
+    }
+    /*.items-contacto a:active{
+        padding: 10px 100px 10px 100px;
+        box-shadow: 10px 10px 10px #ff6584;
+        border-radius: 20px;
+    }*/
+    /*
+    .items-contacto a:hover{
+        color: #ff6584;
+    }
+    */
+    .items-contacto:hover a{
+        color: #ff6584;
+    }
+    
+    .items-contacto:hover .icono{
+        background-color: black;
+        color: #f0c2c6;
+        border-radius: 3em;
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    .formulario-escribime{
+        /*border: 1px solid yellow;*/
+        width: 100%;
+        
+        
+    
+    }
+    .escribime-titulo{
+        /*border: 1px solid black;*/
+        font-size: 3em;
+        margin-left: 0%;
+        
+        
+    }
+    .formulario{
+        /*border: 1px solid green;*/
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0%;
+    }
+    #apellido{
+        /*border: 1px solid black;*/
+        margin-left: 0%;
+
+    }
+    input{
+        /*border: 1px solid black;*/
+        border-radius: 3.12em;
+        padding: 4%;
+        border: 0.06em solid #fae1e3;
+        background-color: #fae1e3;
+        width: 100%;
+    }
+    #email{
+        padding: 2%;
+    }
+    textarea{
+        /*border: 1px solid black;*/
+        border-radius: 1.25em;
+        background-color: #fae1e3;
+        max-width: 100%;
+        width: 100%;
+        max-height: 12.5em;
+    }
+    button{
+        /*border: 1px solid black;*/
+        padding: 10px 30px; /* se ajusta con el paddin d las otras palabras*/
+        border-radius: 25px;
+        background-color: #e68992;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        
+    }
+    button:hover{
+        background-color: #cfbcbc;
+    }
+    
+
+    
+    
+
+    
+
+
+
+
+
+}
+
+
 @media(max-width:550px){
      /*------------------Section presentacion--------------------------------*/
     .presentacion-texto h1{
