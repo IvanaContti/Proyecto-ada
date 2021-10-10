@@ -14,6 +14,8 @@
         <!--LINKS EXTERNOS-->
     </head>
 
+
+     <!------------------------------ESTILOS DE LAS LETRAS-------------------------------->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap');/*letra del contti ivana*/
@@ -21,31 +23,21 @@
 
 
 
-
-
-
-
-
     <body>
-        <!--------------------------menu------------------->
+        <!--------------------------BARRA DE NAVEGACION------------------->
         <header>
             <nav class="nav">
-                <!--MENU HAMBURGUESA--> 
-                <button class="nav-toggle" aria-label="Abrir menú">
-                <i class="fas fa-bars"></i>
-                </button> 
-                <!--FIN MENU HAMBURGUESA--> 
                 <ul class="nav-menu nav-menu_visible">
                     <li class="nav-menu-link" ><a href="#hola">HOLA</a></li>
                     <li class="nav-menu-link"><a href="#conocimientos">CONOCIMIENTOS</a></li>
                     <li class="nav-menu-link"><a href="#proyectos">PROYECTOS</a></li>
                 </ul>
                 <div class="nav-menu-contacto">
-                    <button >CONTACTO</button>
+                    <button><a href="#contacto"> CONTACTO</a></button>
                 </div>
             </nav>
         </header>
-        <!------------------------Presentacion-------------------------->
+        <!------------------------PRESENTACION-------------------------->
         <main>
             <section class="presentacion" id="hola">
                 <div class="presentacion-texto" >
@@ -61,7 +53,7 @@
                 
                 </div>
             </section >
-            <!--------------------Mis conocimientos--------------------->
+            <!-------------------MIS CONOCIMIENTOS--------------------->
             <section id="conocimientos"></section>
 
             <section class="mis-conocimientos" >
@@ -99,7 +91,7 @@
                 </div> 
 
             </section>
-            <!----------------------cita------------------------>
+            <!----------------------------------CITA---------------------------------------->
             <section class="cita"> 
                 <div class="cita-imagen">
                     <figure>
@@ -111,15 +103,15 @@
                     <p style="font-size: 30px; font-weight: bolder;">Vincent van Gogh</p>
                 </div>
             </section>
-            <!--------------------Mis proyectos----------------->
-            <section class="proyecto">
+            <!--------------------------------------PROYECTOS------------------------------------------------->
+            <section class="proyecto" id="proyectos">
                 <div class="proyecto-texto">
                     <h1>Mis proyectos</h1>
                     <p>Dejo una seleccion de trabajos, hechos en el transcurso de la cursada de Ada.</p>            
                 </div>
                 <div class="proyecto-imagenes">
                     <div class="proyecto1">
-                        <img src="./imagenes/mis proyectos/Screen Shot 2020-07-12 at 14.31.06.png"  alt="">
+                        <img src="./imagenes/porfolio.png" style="width: 100%; height: 70%; margin-top: 10%;padding-bottom: 12%;" alt="">
                         <p>Portfolio</p>
                     </div>
                     <div class="proyecto1">
@@ -150,9 +142,10 @@
             </section>
 
 
-            <!------------------------------Contactame-------------------------------->
+            <!------------------------------FORMULARIO-------------------------------->
             
-            <section class="formulario-completo">
+            <section class="formulario-completo" id="contacto">
+                 <!------------------------------FORMULARIO CONTACTAME-------------------------------->
                 <div class="cuadrado-contactame">
                     <div class="contactame-caja" ><!--estaba la clase "contactame" y le agregue el -cuadrado para poder modificar el cuadrado contenedor-->
                         <h1 class="contactame"> Contactame </h1>
@@ -168,17 +161,17 @@
                             </div>
                             
                     </div>
-                
+                <!------------------------------FORMULARIO ESCRIBIME-------------------------------->
                     <div class="formulario-escribime">
                         <h1 class="escribime-titulo">Escribime</h1>
                         <form action="" class="formulario">
-                            <div> 
+                            <div id="nombre"> 
                                 <p>Nombre*</p>
-                                <input type="text" name="nombre" size="44" placeholder="p. ej: Ada" required>
+                                <input type="text" name="nombre" size="24" placeholder="p. ej: Ada" required>
                             </div>
                             <div id="apellido">
                                 <p>Apellido*</p> 
-                                <input type="text" name="apellido" size="44" placeholder="p. ej: Lovelace" required>
+                                <input type="text" name="apellido" size="24" placeholder="p. ej: Lovelace" required>
                             </div>
                             <div>
                                 <p>Email*</p> 
@@ -197,7 +190,7 @@
             </section>
         </main>
 
-        <!------------------------------Footer--------------------------->
+        <!----------------------------------FOOTER-------------------------------------->
         <footer class="footer">
             <div class="footer-caja">
                 <div class="footer-hola"><a href="#hola">HOLA</a></div>

@@ -2,20 +2,15 @@ body{
     background-color: white;
     padding: 0%;
     margin: 0%;
-    
-    
-   
+    /*
+    -webkit-box-shadow: inset -7px 0px 13px 4px rgb(177, 175, 175);
+    -moz-box-shadow: inset -7px 0px 13px 4px rgb(177, 175, 175);
+    box-shadow: inset -7px 0px 13px 4px rgb(177, 175, 175);  
+    */  
 }
 
-/*Inicio de Barra de navegacion
-header{
-    background-color: black;
-    
-    
-   
-    
-    margin-bottom: -600px;
-}*/
+
+/*---------------------------------------------BARRA DE NAVEGACION-----------------------------------------*/
 .nav{
     display: flex; 
     justify-content: end;
@@ -91,9 +86,9 @@ header{
 
 }
     
-    /*Fin de barra de navegacion*/
     
-    /*------------------Section presentacion--------------------------------*/
+    
+/*---------------------------------------------PRESENTACION---------------------------------------------*/
 
 .presentacion{
         
@@ -129,6 +124,7 @@ header{
     font-weight: 900;
     font-family: 'Balsamiq Sans', cursive;
     margin-top: -30px;
+    text-shadow: 0px 6px black;
         
 }
 .presentacion-texto p{
@@ -153,9 +149,13 @@ header{
 }
     
 .presentacion-texto button a{
-     text-decoration: none;
+    text-decoration: none;
     color: black;
-} 
+}
+.nav-menu-contacto a{
+    text-decoration: none;
+    color: white;
+}
     
 .presentacion-imagen{
     /*border: 1px solid black;*/
@@ -167,9 +167,9 @@ header{
     height: 90%;
 }
        
-/*Fin Section presentacion*/
 
-/*-------------------------------Mis conocimientos-----------------------------------------*/
+
+/*---------------------------------------------MIS CONOCIMIENTOS-----------------------------------------*/
 .mis-conocimientos{
     
     
@@ -180,8 +180,6 @@ header{
     background-color: #faeff1;
     width: 100%;
     margin-bottom: 12.5em;
-    
-    
 
 }
 
@@ -244,13 +242,13 @@ header{
 
 
 
-/*------------- FIN de Mis conocimientos--------------------*/
 
 
 
 
 
-/*-------------------Cita---------------------------------------------------*/
+
+/*-----------------------------------------------CITA---------------------------------------------------*/
 
 .cita{
     /*border: 1px solid black;*/
@@ -261,6 +259,9 @@ header{
     justify-content: center; /*me alineo el contenido de adentro*/
     background-color: rgb(219, 217, 217);
     margin-top: -12.5em;
+    
+    
+    
 }
 .cita-imagen{
     /*border: 1px solid black;*/
@@ -290,7 +291,8 @@ header{
 
 
 
-/*----------------------------------------Proyecto-----------------------------------------*/
+/*-------------------------------------------------PROYECTOS----------------------------------------------------*/
+
 .proyecto{
     /*border: 1px solid red;*/
     width: 100%;
@@ -343,6 +345,8 @@ header{
 .proyecto1 img{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
+   
 }
 .proyecto1:hover{
     border: 0.06em solid #ff6584;
@@ -351,8 +355,7 @@ header{
     
     border-radius: 10px;
 }
-
-/*-------------------Contactame---------------------------*/
+/*---------------------------------------------FORMULARIO-----------------------------------------*/
 
 .formulario-completo{
     /*border: 1px solid black;*/
@@ -364,7 +367,7 @@ header{
 
 }
 
-
+/*-------------------------FORMULARIO CONTACTAME-----------------------------------*/
 
 
 .cuadrado-contactame{
@@ -434,16 +437,8 @@ header{
     text-decoration: none;
     color: black;
 }
-/*.items-contacto a:active{
-    padding: 10px 100px 10px 100px;
-    box-shadow: 10px 10px 10px #ff6584;
-    border-radius: 20px;
-}*/
-/*
-.items-contacto a:hover{
-    color: #ff6584;
-}
-*/
+
+
 .items-contacto-formulario:hover a{
     color: #ff6584;
 }
@@ -458,7 +453,7 @@ header{
 
 
 
-
+/*-----------------------------FORMULARIO ESCRIBIME---------------------------------*/
 
 
 .formulario-escribime{
@@ -479,7 +474,7 @@ header{
 }
 #apellido{
     /*border: 1px solid black;*/
-    margin-left: 0%;
+    margin-left: 7%;
 }
 input{
     /*border: 1px solid black;*/
@@ -508,7 +503,7 @@ button:hover{
     background-color: #cfbcbc;
 }
 
-/*-------------------FOOTHER------------------ */
+/*------------------------------------------------FOOTHER----------------------------------------------- */
 .footer{
     border: 0.06em solid black;
     background-color: black;
@@ -523,7 +518,7 @@ button:hover{
     /*border: 0.06em solid blue;*/
     flex-wrap: wrap;
     justify-content: center;
-    padding: 5em;
+    padding: 70px 0px 20px 0px;
     font-family: 'Archivo Narrow', sans-serif;
     color: #ff6584;
     width: 100%;
