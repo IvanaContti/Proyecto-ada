@@ -12,7 +12,7 @@
     
     
         
-      /*------------------Section presentacion--------------------------------*/
+    /*------------------PRESENTACION--------------------------------*/
 
     .presentacion{
             
@@ -34,7 +34,6 @@
         width: 100%;
         padding-bottom: 50px;
           
-            
     }
 
     .presentacion-texto h1{
@@ -72,7 +71,7 @@
         
     /*Fin Section presentacion*/
 
- /*-------------------------------Mis conocimientos-----------------------------------------*/
+ /*-------------------------------MIS CONOCIMIENTOS-----------------------------------------*/
     
     
     .conocimientos-imagenes{
@@ -91,7 +90,7 @@
         background-color: white;
     }
 
-    /*----------------------------------------Proyecto-----------------------------------------*/
+    /*----------------------------------------PROYECTO-----------------------------------------*/
 
     .proyecto1{
         border: 0.06em solid rgb(44, 44, 44);
@@ -119,7 +118,7 @@
         
     }
 
-    /*-------------------Contactame---------------------------*/
+    /*-------------------FORMULARIO---------------------------*/
 
     .formulario-completo{
         /*border: 1px solid black;*/
@@ -130,9 +129,6 @@
         padding: 100px 0px 100px 0px;
     
     }
-    
-    
-    
     
     .cuadrado-contactame{
         border: 0.06em solid #ff6584;
@@ -151,8 +147,7 @@
        
     }
     
-    
-    
+
     /*contactame texto- parrafo*/
     .contactame-caja h1{
         /*border: 1px solid black;*/
@@ -173,8 +168,7 @@
         margin-left: 1.25em;
         line-height: 3.43em;
         font-size: 16px;
-    
-        
+
     }
     .contactame-cuadrado-links li:active{
         padding: 0.06em -1.25em 0.06em -1.25em;
@@ -193,31 +187,8 @@
         text-decoration: none;
         color: black;
     }
-    /*.items-contacto a:active{
-        padding: 10px 100px 10px 100px;
-        box-shadow: 10px 10px 10px #ff6584;
-        border-radius: 20px;
-    }*/
-    /*
-    .items-contacto a:hover{
-        color: #ff6584;
-    }
-    */
-    .items-contacto:hover a{
-        color: #ff6584;
-    }
-    
-    .items-contacto:hover .icono{
-        background-color: black;
-        color: #f0c2c6;
-        border-radius: 3em;
-        
-        
-    }
-    
-    
-    
-    
+   
+   
     
     
     .formulario-escribime{
@@ -263,10 +234,7 @@
         background-color: #e68992;
         font-size: 20px;
     }
-    button:hover{
-        background-color: #cfbcbc;
-    }
-
+    
 
   /*-------------------FOOTHER------------------ */
 
@@ -292,14 +260,10 @@
         text-decoration: none;
         color: #ff6584;
     }
-    .footer-caja a:hover{
-        color: #fae1e3;
-    }
-
+   
     .footer-hola{
         
         margin-left: 1.25em;
-        
         
     }
 
@@ -320,8 +284,6 @@
         display: flex;
         justify-content: center;
     
-    
-
     }
 
     .hecho{
@@ -343,34 +305,14 @@
 
     }
 
-    .footer-contacto .items-contacto:hover{
-        border: 0.06em solid white;
-        color: white;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
 
 
 
-
-
-
-
 @media(max-width:900px){
-    /*-------------------------------Mis conocimientos-----------------------------------------*/
+    /*-------------------------------MIS CONOCIMIENTOS-----------------------------------------*/
     .conocimientos-imagenes{
         /*border: 1px solid black;*/
         display: flex;
@@ -383,7 +325,7 @@
         
     
     }
-    /*----------------------------------------Proyecto-----------------------------------------*/
+    /*----------------------------------------PROYECTOS-----------------------------------------*/
     .proyecto1{
         border: 0.06em solid rgb(44, 44, 44);
         margin: 30px 15px;
@@ -406,7 +348,7 @@
     }
     
     
-    /*-------------------Contactame---------------------------*/
+    /*-------------------FORMULARIO---------------------------*/
 
     .formulario-completo{
         /*border: 1px solid black;*/
@@ -417,9 +359,6 @@
         padding: 100px 0px 100px 0px;
     
     }
-    
-    
-    
     
     .cuadrado-contactame{
         /*border: 0.06em solid #ff6584;*/
@@ -489,11 +428,6 @@
         width: 40%;
     }
         
-    .contactame-cuadrado-links li:active{
-        padding: 0.06em -1.25em 0.06em -1.25em;
-        border: 0.06em solid #ff6584;
-        border-radius: 1.25em;
-    }
     
     .icono{
         padding: 0.5em;
@@ -501,51 +435,20 @@
         font-size: 25px;
     
     }
+
     
-    .items-contacto a{
-        text-decoration: none;
-        color: black;
-    }
-    /*.items-contacto a:active{
-        padding: 10px 100px 10px 100px;
-        box-shadow: 10px 10px 10px #ff6584;
-        border-radius: 20px;
-    }*/
-    /*
-    .items-contacto a:hover{
-        color: #ff6584;
-    }
-    */
-    .items-contacto:hover a{
-        color: #ff6584;
-    }
-    
-    .items-contacto:hover .icono{
-        background-color: black;
-        color: #f0c2c6;
-        border-radius: 3em;
-        
-        
-    }
-    
-    
-    
-    
-    
+
     
     .formulario-escribime{
         /*border: 1px solid yellow;*/
         width: 100%;
         
-        
-    
     }
     .escribime-titulo{
         /*border: 1px solid black;*/
         font-size: 3em;
         margin-left: 50px;
-        
-        
+    
     }
     .formulario{
         /*border: 1px solid green;*/
@@ -590,9 +493,7 @@
         margin-left: 20px;
         
     }
-    button:hover{
-        background-color: #cfbcbc;
-    }
+    
 
     /*------------FOOTER-----------------*/
 
@@ -604,20 +505,12 @@
     }
     
      
-
-
-
-
-
-
-
-
 }
 
 
 
 @media(max-width:700px){
-     /*------------------Section presentacion--------------------------------*/
+     /*------------------PRESENTACION--------------------------------*/
     .presentacion{
             
         /*border: 1px solid red;*/
@@ -640,7 +533,7 @@
         margin-left: 0%;
     }
 
-     /*----------------------------------------Proyecto-----------------------------------------*/
+     /*----------------------------------------PROYECTO-----------------------------------------*/
      .proyecto1{
         border: 0.06em solid rgb(44, 44, 44);
         margin: 30px 15px;
@@ -661,7 +554,7 @@
         
     }
 
-    /*---------------fotmulario--------------------*/
+    /*---------------FORMULARIO--------------------*/
 
     .formulario-completo{
         /*border: 1px solid black;*/
@@ -672,9 +565,6 @@
         padding: 100px 0px 100px 0px;
     
     }
-    
-    
-    
     
     .cuadrado-contactame{
         /*border: 0.06em solid #ff6584;*/
@@ -696,8 +586,7 @@
        
     }
     
-    
-    
+
     /*contactame texto- parrafo*/
     .contactame-caja h1{
         /*border: 1px solid black;*/
@@ -720,8 +609,6 @@
         padding-top: 10px;
         display: flex;
         flex-wrap: wrap;
-    
-        
     }
     .contactame-cuadrado-links ul{
         /*border: 1px solid blue;*/
@@ -729,8 +616,6 @@
         flex-wrap: wrap;
         width: 100%;
         padding: 0;
-        
-        
     }
     .items-contacto-formulario{
         /*border: 1px solid red;*/
@@ -751,64 +636,21 @@
         width: 40%;
     }
         
-    .contactame-cuadrado-links li:active{
-        padding: 0.06em -1.25em 0.06em -1.25em;
-        border: 0.06em solid #ff6584;
-        border-radius: 1.25em;
-    }
-    
-    .icono{
-        padding: 0.5em;
-        color: #ff6584;
-        font-size: 25px;
-    
-    }
-    
-    .items-contacto a{
-        text-decoration: none;
-        color: black;
-    }
-    /*.items-contacto a:active{
-        padding: 10px 100px 10px 100px;
-        box-shadow: 10px 10px 10px #ff6584;
-        border-radius: 20px;
-    }*/
-    /*
-    .items-contacto a:hover{
-        color: #ff6584;
-    }
-    */
-    .items-contacto:hover a{
-        color: #ff6584;
-    }
-    
+  
     .items-contacto:hover .icono{
         background-color: black;
         color: #f0c2c6;
-        border-radius: 3em;
-        
-        
+        border-radius: 3em;   
     }
-    
-    
-    
-    
-    
-    
     .formulario-escribime{
         /*border: 1px solid yellow;*/
         width: 100%;
         margin-left: 0;
-        
-        
-    
     }
     .escribime-titulo{
         /*border: 1px solid black;*/
         font-size: 3em;
         margin-left: 3%;
-        
-        
     }
     .formulario{
         /*border: 1px solid green;*/
@@ -856,25 +698,12 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
     /*-------------------FOOTHER------------------ */
     .footer{
         /*border: 0.06em solid red;*/
         display: flex;
         flex-wrap: wrap;
         padding-top: 10%;
-        
-        
-        
     }
     .footer-caja{
         display: flex;
@@ -888,14 +717,7 @@
         display: none;
             
     }
-    .footer-caja a{
-        text-decoration: none;
-        color: #ff6584;
-    }
-    .footer-caja a:hover{
-        color: #fae1e3;
-    }
-    
+   
     .footer-hola{
         border: 0.06em solid black;
         margin-left: 1.25em;
@@ -908,53 +730,40 @@
         justify-content: center;
         
     }
-    
-    
-    
     .footer-contacto{
         
         /*border: 1px solid purple;*/
         width: 88%;
         height: 62%;
         display: flex;
-        justify-content: center;
-        
+        justify-content: center;   
     }
-    
     .hecho{
         /*border: 1px solid blue;*/
-        width: 100%;
-        
+        width: 100%;   
     }
-    
     .hecho p{
         text-align: center; 
         color: white;
         margin-bottom: 100px;
         width: 100%;
     }
-    
     .items-contacto{
         border: 1px solid black;
         border-radius: 100px;
         margin-left: 10px;
-    
     }
-    
     .footer-contacto .items-contacto:hover{
         border: 0.06em solid white;
         color: white;
     }
 
 
-
-
-
 }
 
 
 @media(max-width:650px){
-    /*-------------------------------Mis conocimientos-----------------------------------------*/
+    /*-------------------------------MIS CONOCIMIENTOS-----------------------------------------*/
     .conocimientos-imagenes{
         /*border: 1px solid black;*/
         display: flex;
@@ -964,8 +773,6 @@
         margin-top: 3.12em;
         margin-bottom: 6.25em;
         padding: 0px 100px;
-        
-    
     }
 
     /*-------FORMULARIO-------------*/
@@ -973,8 +780,6 @@
         width: 45%;
        
     }
-
-   
     /*--------footer-----------------*/
     .footer-contacto{
         
@@ -986,13 +791,11 @@
         
     }
 
-    
-
 
 }
 
 @media(max-width:580px){
-    /*-------------------------------Mis conocimientos-----------------------------------------*/
+    /*-------------------------------MIS CONOCIMIENTOS-----------------------------------------*/
     .conocimientos-imagenes{
         /*border: 1px solid black;*/
         display: flex;
@@ -1014,13 +817,13 @@
         background-color: white;
         
     }
-     /*-------FORMULARIO-------------*/
+     /*-----------FORMULARIO-------------*/
      #linkedin{
         width: 50%;
        
     }
 
-     /*--------footer-----------------*/
+     /*-------------FOOTER-----------------*/
      .footer-contacto{
         
         /*border: 1px solid purple;*/
@@ -1037,7 +840,7 @@
 
 
 @media(max-width:550px){
-    /*------------------Section presentacion--------------------------------*/
+    /*------------------PRESENTACION--------------------------------*/
    .presentacion-texto h1{
        font-size: 25px;
        margin-top: 0px;
@@ -1064,7 +867,7 @@
        
    }
 
-    /*----------------------------------------Proyecto-----------------------------------------*/
+    /*----------------------------------------PROYECTO-----------------------------------------*/
 
     .proyecto-imagenes{
        /*border: 1px solid blue;*/
@@ -1081,10 +884,9 @@
 }
 
 
-
-
 @media(max-width:500px){
-    /*-------------------Contactame---------------------------*/
+
+    /*-------------------FORMULARIO---------------------------*/
     
     .formulario-completo{
         /*border: 1px solid black;*/
@@ -1095,10 +897,6 @@
         padding: 100px 0px 100px 0px;
     
     }
-    
-    
-    
-    
     .cuadrado-contactame{
         /*border: 0.06em solid #ff6584;*/
         border-radius: 20px;
@@ -1111,21 +909,16 @@
         border: none;
         
     }
-    
     .contactame-caja{
         /*border: 1px solid blue;*/
         width: 100%;
        
     }
-    
-    
-    
     /*contactame texto- parrafo*/
     .contactame-caja h1{
         /*border: 1px solid black;*/
         font-size: 3em;
         margin-left: 0%;
-        
     }
     .contactame-caja p{
         /*border: 1px solid black;*/
@@ -1141,8 +934,6 @@
         line-height: 3.43em;
         font-size: 18px;
         padding-top: 10px;
-    
-        
     }
     .contactame-cuadrado-links ul{
         /*border: 1px solid black;*/
@@ -1150,13 +941,8 @@
         flex-direction: column;
         width: 100%;
         margin-left: -12%;
-        
-        
     }
     
-    
-   
-
     #twiter{
         width: 100%;
     }
@@ -1169,64 +955,18 @@
     #linkedin{
         width: 100%;
     }
-        
-    .contactame-cuadrado-links li:active{
-        padding: 0.06em -1.25em 0.06em -1.25em;
-        border: 0.06em solid #ff6584;
-        border-radius: 1.25em;
-    }
-    
-    .icono{
-        padding: 0.5em;
-        color: #ff6584;
-        font-size: 25px;
-    
-    }
-    
-    .items-contacto a{
-        text-decoration: none;
-        color: black;
-    }
-    /*.items-contacto a:active{
-        padding: 10px 100px 10px 100px;
-        box-shadow: 10px 10px 10px #ff6584;
-        border-radius: 20px;
-    }*/
-    /*
-    .items-contacto a:hover{
-        color: #ff6584;
-    }
-    */
-    .items-contacto:hover a{
-        color: #ff6584;
-    }
-    
-    .items-contacto:hover .icono{
-        background-color: black;
-        color: #f0c2c6;
-        border-radius: 3em;
-        
-        
-    }
-    
-    
-    
-    
-    
+
+
+    /*-----------------------------FORMULARIO ESCRIBIME---------------------------------*/
     
     .formulario-escribime{
         /*border: 1px solid yellow;*/
         width: 100%;
-        
-        
-    
     }
     .escribime-titulo{
         /*border: 1px solid black;*/
         font-size: 3em;
         margin-left: 0%;
-        
-        
     }
     .formulario{
         /*border: 1px solid green;*/
@@ -1237,7 +977,6 @@
     #apellido{
         /*border: 1px solid black;*/
         margin-left: 10%;
-
     }
     input{
         /*border: 1px solid black;*/
@@ -1284,7 +1023,7 @@
 
 
 @media(max-width:450px){
-     /*------------------Section presentacion--------------------------------*/
+    /*------------------PRESENTACION--------------------------------*/
     .presentacion-texto button{
         border-radius: 1.25em;
         background-color: #e68992;
@@ -1298,14 +1037,12 @@
     }
     .presentacion-imagen img{
         /*border: 1px solid black;*/
-        
-       
         margin-left: 7%;
     }
 
 
 
-    /*-------------------------------Mis conocimientos-----------------------------------------*/
+    /*-------------------------------MIS CONOCIMIENTOS-----------------------------------------*/
     .conocimientos-imagenes{
         /*border: 1px solid black;*/
         display: flex;
@@ -1314,7 +1051,7 @@
         flex-wrap: wrap;
         margin-top: 30px;
         margin-bottom: 6.25em;
-        padding-top: 300px;
+        padding-top: 30px;
         
     }
     .conocimientos-imagen{
@@ -1328,7 +1065,7 @@
         
     }
 
-    /*--------footer-----------------*/
+    /*----------------------FOOTER-----------------------*/
     .footer-contacto{
         
         /*border: 1px solid purple;*/
@@ -1337,16 +1074,16 @@
         display: flex;
         justify-content: center;
        
-        
     }
 
 
+}
 
+@media(max-width:350px){
 
-
-
-
-
+    #linkedin{
+        width: 300px;
+    }
 
 }
     

@@ -2,11 +2,7 @@ body{
     background-color: white;
     padding: 0%;
     margin: 0%;
-    /*
-    -webkit-box-shadow: inset -7px 0px 13px 4px rgb(177, 175, 175);
-    -moz-box-shadow: inset -7px 0px 13px 4px rgb(177, 175, 175);
-    box-shadow: inset -7px 0px 13px 4px rgb(177, 175, 175);  
-    */  
+    
 }
 
 
@@ -43,7 +39,6 @@ body{
     
 }
 
-
 .nav-menu-link a:hover{
     color: white;
     margin-left: 50px;
@@ -75,17 +70,6 @@ body{
         
 }
 
-.nav-toggle{
-    color:#ff6584;
-    font-size: 30px;
-    text-align: center;
-    background: none;
-    border: none;
-    padding: 0px 20px;
-    display: none;
-
-}
-    
     
     
 /*---------------------------------------------PRESENTACION---------------------------------------------*/
